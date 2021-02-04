@@ -17,8 +17,11 @@ const auth = async () => {
       },
     }).then((res) => res.json());
 
-    if (response.error === true) return;
+    if (response.error === true) return console.log(`> FALHA NA AUTENTICAÇÃO!`)
     const { payload } = response;
+    
+    console.log(`> AUTENTICADO COM SUCESSO!`)
+
     return payload.acess_token;
   } catch (err) {
     console.log(err);
@@ -49,8 +52,11 @@ const storeRelease = async (
       },
     }).then((res) => res.json());
 
-    if (response.error === true) return;
+    if (response.error === true) return console.log(`> RELEASE (${version}) NÃO MIGRADA!`);
     const { payload } = response;
+
+    console.log(`> RELEASE (${version}) MIGRADA!`);
+
     return payload;
   } catch (err) {
     console.log(err);
@@ -59,6 +65,7 @@ const storeRelease = async (
 
 // --> Start
 (async () => {
+  console.log(`> INICIO DA MIGRAÇÃO!`)
   const authorization = `Bearer ${await auth()}`;
 
   releases.reverse().map(
