@@ -24,7 +24,7 @@ const auth = async () => {
 
     return payload.acess_token;
   } catch (err) {
-    console.log(err);
+    console.log(`> FALHA NA AUTENTICAÇÃO! ${err}`)
   }
 };
 
@@ -59,7 +59,7 @@ const storeRelease = async (
 
     return payload;
   } catch (err) {
-    console.log(err);
+    console.log(`> RELEASE NÃO MIGRADA! ${err}`);
   }
 };
 
