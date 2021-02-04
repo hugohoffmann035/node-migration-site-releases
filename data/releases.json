@@ -1,0 +1,1997 @@
+[
+    {
+        "id": "285",
+        "title": "#285- Fusion v7.25.3",
+        "change_log": "- Correção dependência ACBr ao cancelar cupom;\n- Correção ao sincronizar dados de estoque com outros terminais;\n- Correção ao importar comprar e solicitar gerar doc. a pagar sem ter o Gestor ativo;\n- Alterado impressão do recibo para conter cabeçalho com logo;\n- Correção de CONCAT em alguns relatórios;",
+        "version": "7.25.3",
+        "launch": "2021-01-27"
+    },
+    {
+        "id": "284",
+        "title": "#284- Fusion v7.25.1",
+        "change_log": "- Adicionado tabela de preços no faturamento mei;\n- Adicionado tabela de preços na nf-e;",
+        "version": "7.25.1",
+        "launch": "2021-01-18"
+    },
+    {
+        "id": "283",
+        "title": "#283- Fusion v7.25.0",
+        "change_log": "- Adicionado Tabela de Preços no Pedido de Venda;\n- Adicionado Vendedor no Faturamento MEI;\n- Correção ao acessar arquivo de licenças em win7 e 8 com .net 4.6.2;\n",
+        "version": "7.25.0",
+        "launch": "2021-01-14"
+    },
+    {
+        "id": "282",
+        "title": "#282- Fusion v7.24.2",
+        "change_log": "- Corrigido problema de DLL que ocorria em alguns windows.",
+        "version": "7.24.2",
+        "launch": "2021-01-11"
+    },
+    {
+        "id": "281",
+        "title": "#281- Fusion v7.24.1",
+        "change_log": "- Adicionado segmentação de endereço da pessoa como \"Entrega\", \"Principal\" e \"Outros\";\n- Adicionado maneira de selecionar o endereço de entrega diferente do principal do destinatário na NF-e;\n- Melhoria de layout e logo das informações do emitente no DANF-e da NF-e;\n- Correção de erro ao receber xml vazio do Integrador do CE\n- Correção ao fazer NF-e de devolução com CSOSN 900 e sem Crédito de IMCS;\n- Adicionado preferencias para usar tabela de preços padrão no NFC-e;",
+        "version": "7.24.1",
+        "launch": "2021-01-10"
+    },
+    {
+        "id": "280",
+        "title": "#280- Fusion v7.23.1",
+        "change_log": "- Correção de divisão por zero ao emitir nota complementar zerada com icms crédito;\n- Melhoria no envio de pagamentos para evitar falhas com a SEFAZ-CE;",
+        "version": "7.23.1",
+        "launch": "2020-12-21"
+    },
+    {
+        "id": "279",
+        "title": "#279- Fusion v7.23.0",
+        "change_log": "IMPORTANTE: Devido a alguns problemas de quebra de identificador (ID) nos registros, foi feito o downgrade do SQL Server nas novas instalações.\n\nOs clientes que já usam SQL Server 2014 devem continuar usando-o, não é possível fazer o downgrade do banco de dados.\n\n- Bloqueio de item com estoque insuficiente no Faturamento;\n- Opção de crédito/débito ao finalizar um MF-e em Cartão Pos;\n- Melhoria no layout da observação da impressão da NF-e;\n- Melhoria no filtro e exibição da grid do CT-e;\n- Inclusão de relatório de cliente por cidade e endereço;\n- Inclusão de relatório de produtos com o código de barras;\n- Atualizado impressão modelo de etiqueta dos produtos;\n- Correção ao quitar documento a pagar com caixa fechado;\n- Correção ao emitir um MF-e com opção cartão e retornando erro não catalogado;\n- Correção ao utilizar outras despesas no lançamento de compra;",
+        "version": "7.23.0",
+        "launch": "2020-12-16"
+    },
+    {
+        "id": "278",
+        "title": "#278- Fusion v7.22.2",
+        "change_log": "- A tabela de preços na nfc-e é limpa após finalizar ou cancelar a venda;\n- Adicionado Preço Tabela e Preço de Venda na opção de consulta produtos (F6) na nfc-e;\n- Melhoria no controle de encerramentos do MDF-e;\n- Correção no comportamento da tela e mensagens ao utilizar opção \"Sem Pagamento\" na nf-e;",
+        "version": "7.22.2",
+        "launch": "2020-12-03"
+    },
+    {
+        "id": "277",
+        "title": "#277- Fusion v7.22.1",
+        "change_log": "- Agora os lançamentos em contas a pagar são registrados no caixa;\n- Nota fiscal de devolução está destacando o IPI Devolvido na observação do item;\n- Correção ao importar XML de compra com tag diferenciada do RN;\n- Correção ao fazer o MD-e com mais de uma empresa;\n- Correção ao buscar código de barras com 0 a esquerda;",
+        "version": "7.22.1",
+        "launch": "2020-11-25"
+    },
+    {
+        "id": "276",
+        "title": "#276- Fusioin v7.22.0",
+        "change_log": "- Adicionado novo recurso para tabela de preços com uso inicial no checkout;\n- Correção de switch button no MDF-e;\n- Correção de switch button no cabeçalho da NF-e;",
+        "version": "7.22.0",
+        "launch": "2020-11-17"
+    },
+    {
+        "id": "275",
+        "title": "#275- Fusion v7.21.1",
+        "change_log": "- Correção no atualizador de banco de dados",
+        "version": "7.21.1",
+        "launch": "2020-10-23"
+    },
+    {
+        "id": "274",
+        "title": "#274- Fusion v7.21.0",
+        "change_log": "- Adicionado relatório de vendas por cliente;\n- Adicionado relatório de itens vendidos por cliente;\n- Adicionado relatório de totalização pela forma de pagamento;\n- Adicionado recurso para fazer lançamento direto no caixa loja;\n- Adicionado impressão da nfc-e em folha A4;\n- Adicionado recurso para enviar mdf-e por e-mail após autorizar;\n- Melhorado janela de geração de contas a pagar;\n- Corrigido botões nas opções do produto;\n- Corrigido indicador ie ao utilizar o conversor de csv;\n- Alterado ip 127.0.0.1 da configuração inicial para localhost;",
+        "version": "7.21.0",
+        "launch": "2020-10-23"
+    },
+    {
+        "id": "273",
+        "title": "#273- Fusion v7.20.2",
+        "change_log": "- Correção na impressão dos documentos fiscais",
+        "version": "7.20.2",
+        "launch": "2020-10-06"
+    },
+    {
+        "id": "272",
+        "title": "#272- Fusion v7.20.1",
+        "change_log": "IMPORTANTE: Ocorre um bug ao imprimir documentos fiscais, aguarde a versão v7.20.2 que está sendo preparada!\n\n- Adicionado aproveitamento de crédito na obs dos itens da nf-e quando simples nacional;\n- Melhorias no manifesto para filtro e localização de não encerrados;\n- Correção na diferença de relatórios fiscais e de vendas;\n- Correção ao usar vale pedágio no mdf-e;\n- Correção na impressão do cte-os para imprimir DACTE OS\n- Melhoria no layout do fusion e adicionado tecla de atalho para campos com buscas.",
+        "version": "7.20.1",
+        "launch": "2020-10-06"
+    },
+    {
+        "id": "271",
+        "title": "#271- Fusion v7.19.3",
+        "change_log": "- Correção ao converter pedido de venda para nf-e onde não estava respeitando o DIFAL e também o Indicador IE da pessoa;",
+        "version": "7.19.3",
+        "launch": "2020-09-22"
+    },
+    {
+        "id": "270",
+        "title": "#270- Fusion v7.19.2",
+        "change_log": "- Correção ao usar seguro de carga no mdf-e;\n- Correção ao migrar base de dados com mdf-e pendente que gerava erro de fk;\n- Correção ao manifestar documentos da sefaz quando o evento vem primeiro que o resumo da nota;\n- Adicionado detalhes do aproveitamento de crédito na observação do item na nf-e;\n- Melhoria no processo de baixar documentos pelo mde na sefaz;",
+        "version": "7.19.2",
+        "launch": "2020-09-21"
+    },
+    {
+        "id": "269",
+        "title": "#269- Fusion v7.19.0",
+        "change_log": "- Correção ao alterar preço unitário no momento da inclusão do pedido de venda;\n- Melhoria no relatório de Análise de Lucro por Itens;\n- Criado novo relatório de Vendas Completo por Modelo;\n- Correção no erro de fk_emissão ao atualizar base de dados nfc-e;\n- Correção ao receber uma nf-e denegada com código 303;\n- Melhorias na definição do Indicador IE da pessoa;\n- Adicionado busca nos filtros das listagens pelo atalho CTRL + Enter;\n- Alterado Label \"Lacrado\" para \"Carga Fechada\" no mdf-e;\n- Correção ao usar INSS com valor 0,00 no mdf-e;\n- Adicionado validação da chave ao adicionar como carga no mdf-e;\n- Melhoria de performance ao usar busca de nf-e ou ct-e como carga do mdf-e;",
+        "version": "7.19.0",
+        "launch": "2020-09-16"
+    },
+    {
+        "id": "268",
+        "title": "#268- Fusion v7.18.14",
+        "change_log": "- Correção ao receber status 303 denegado na nf-e;\n- Correção ao atualizar sistema com nfc-e em emissão e que depois ocasionava erro de pk na tabela de emissão;\n- Correção ao dar desconto no faturamento e ocorrer sobra de centavos nos itens;\n- Melhoria do relatório de Análise de Lucro;\n- Adicionado novo relatório como substituto do Relatório de Movimentações;",
+        "version": "7.18.14",
+        "launch": "2020-09-10"
+    },
+    {
+        "id": "267",
+        "title": "#267- Fusion v7.18.12",
+        "change_log": "- Melhoria na ordenação das NF-e lancadas no MDF-e\n- Feito devolução NF-e devolver para IPIDevolução\n- Salvar ultimo local da exportação do busca rápida gertec\n- Escolher quantas casas decimais o busca rápida da gertec terá",
+        "version": "7.18.12",
+        "launch": "2020-08-27"
+    },
+    {
+        "id": "266",
+        "title": "#266- Fusion v7.18.11",
+        "change_log": "- Correção na busca de XMLs de SAT para exportação",
+        "version": "7.18.11",
+        "launch": "2020-08-19"
+    },
+    {
+        "id": "265",
+        "title": "#265- Fusion v7.18.10",
+        "change_log": "- Padronização RecebidoEm\n- Integração Busca Gertec\n- Possibilitar usuário escolher Indicador de Inscrição Estadual\n- Importação MD-e , adicionado botão para colocar status de importada\n- Atualização em qrCodes",
+        "version": "7.18.10",
+        "launch": "2020-08-19"
+    },
+    {
+        "id": "264",
+        "title": "#264- Fusion v7.18.9",
+        "change_log": "- Bloquear Estoque Negativo NF-e\n- Correção CT-e",
+        "version": "7.18.9",
+        "launch": "2020-08-14"
+    },
+    {
+        "id": "263",
+        "title": "#263- Fusion v7.18.8",
+        "change_log": "- Aceitar mais de uma averbação para um seguro de MDF-e\n- Correção nas margens da impressão de NFC-e 58mm",
+        "version": "7.18.8",
+        "launch": "2020-08-05"
+    },
+    {
+        "id": "262",
+        "title": "#262- Fusion v7.18.7",
+        "change_log": "- Correção assemblys\n- Correção impressão nfc-e 58mm",
+        "version": "7.18.7",
+        "launch": "2020-08-03"
+    },
+    {
+        "id": "261",
+        "title": "#261- Fusion v7.18.5",
+        "change_log": "IMPORTANTE\n\n- Alterado SQL Server do instalador para versão 2014; só irá impactar clientes novos.\n- Adicionado relatórios auxiliares de tributação por NCM (auxilio no monofasicos)\n- Correções é melhorias de layout",
+        "version": "7.18.5",
+        "launch": "2020-07-30"
+    },
+    {
+        "id": "260",
+        "title": "#260- Fusion v7.18.4",
+        "change_log": "- Melhorias Lista Item NF-e\n- Correção Relatório",
+        "version": "7.18.4",
+        "launch": "2020-07-27"
+    },
+    {
+        "id": "259",
+        "title": "#259- Fusion v7.18.3",
+        "change_log": "- Melhoria na obtenção de QrCode\n- Correção na conversão de pedido venda para nf-e\n- Correção no perfil nf-e",
+        "version": "7.18.3",
+        "launch": "2020-07-23"
+    },
+    {
+        "id": "258",
+        "title": "#258- Fusion v7.18.2",
+        "change_log": "- Correção NF-e",
+        "version": "7.18.2",
+        "launch": "2020-07-20"
+    },
+    {
+        "id": "257",
+        "title": "#257- Fusion v7.18.1",
+        "change_log": "- Correção CT-e OS\n- Correção NF-e",
+        "version": "7.18.1",
+        "launch": "2020-07-17"
+    },
+    {
+        "id": "256",
+        "title": "#256- Fusion v7.18.0",
+        "change_log": "- Adicionado geração de várias parcelas no documentos a receber de forma manual;\n- Adicionado configuração nas preferências do terminal para customizar o nome impresso;\n- Adicionado configuração nas preferências do terminal para não imprimir após emitir cupom;\n- Adicionado layout de impressão 58mm para emissão de nfce;\n- Adicionado recurso para lançar item na nf-e sem movimentar o estoque;\n- Adicionado relatórios financeiros para contas a pagar e a receber;\n- Adicionado novo layout do MDF-e para NT2020-001\n- Correções no sintegra;",
+        "version": "7.18.0",
+        "launch": "2020-07-15"
+    },
+    {
+        "id": "255",
+        "title": "#255- Fusion v7.17.4",
+        "change_log": "- Melhoria no sintegra para Valores Outros ficar igual ao Valor Total",
+        "version": "7.17.4",
+        "launch": "2020-06-30"
+    },
+    {
+        "id": "254",
+        "title": "#254- Fusion v7.17.2",
+        "change_log": "- Correção de número inicial na geração do sintegra;\n- Correção ao converter pedido para nf-e que estava ignorando a flag difal no pedido;\n- Melhoria no layout do pedido de venda;\n- Retirado passo de pagamento do pedido de venda, agora o pagamento deve ser feito no momento da venda;\n- Adicionado uso do vendedor nas vendas feitas pelo checkout da nfc-e;",
+        "version": "7.17.2",
+        "launch": "2020-06-15"
+    },
+    {
+        "id": "253",
+        "title": "#253- Fusion v7.17.0",
+        "change_log": "- Retirado obrigatoriedade de informar cliente ou visitante no pedido;\n- Adicionado solicitação de motivo ao cancelar um pedido ou orçamento;\n- Adicionado recurso para utilizar vendedor no checkout nfc-e;\n- Adicionado relatório de vendas feitas no checkout da nfc-e por vendedor;\n- Correção na emissão de nfe/nfce quando o produto tiver quantidade tributável diferente da comercial.\n- Correção na validação ao selecionar um proprietário do veículos;",
+        "version": "7.17.0",
+        "launch": "2020-05-29"
+    },
+    {
+        "id": "252",
+        "title": "#252- Fusion v7.16.1",
+        "change_log": "- Alterado impressão do cupom nfc-e para utilizar o vUnCom ao invés do vUnTrib;",
+        "version": "7.16.1",
+        "launch": "2020-05-26"
+    },
+    {
+        "id": "251",
+        "title": "#251- Fusion v7.16.0",
+        "change_log": "- Melhoria ao trabalhar com vendedores no pedido de venda;\n- Melhoria na mensagem de notas pendentes em contingência;\n- Adicionado recuperação para ct-e com erro de conexão com a sefaz;\n- Correção ao adicionar vendedor no pedido de venda;\n- Correção e melhorias na busca de seleção da pessoa;\n- Correção na observação do ct-e cortando quando grande;\n- Correção na unidade tributável quando diferente da comercial para nf-e e nfc-e;",
+        "version": "7.16.0",
+        "launch": "2020-05-25"
+    },
+    {
+        "id": "250",
+        "title": "#250- Fusion v7.15.3",
+        "change_log": "- Correção Observação NF-e\n- Melhoria na emissão de NF-e com Código ANP\n- Adicionado novos campos na grid de nota de compra\n- Manter ultima busca no NFC-e\n- Correções na NFC-e",
+        "version": "7.15.3",
+        "launch": "2020-05-06"
+    },
+    {
+        "id": "249",
+        "title": "#249- Fusion v7.15.2",
+        "change_log": "- Correção na observação da nf-e",
+        "version": "7.15.2",
+        "launch": "2020-04-24"
+    },
+    {
+        "id": "248",
+        "title": "#248- Fusion v7.15.1",
+        "change_log": "- Correção no pacote Sintegra",
+        "version": "7.15.1",
+        "launch": "2020-04-14"
+    },
+    {
+        "id": "247",
+        "title": "#247- Fusion v7.15.0",
+        "change_log": "- Adicionado número e data no histórico de compras do Produto;\n- Adicionado auxilio de cálculo para FCP no lançamento de Compras;\n- Adicionado possibilidade de copiar a rejeição na janela de autorização de documentos fiscais;\n- Adicionado alíquota padrão de ICMS para DIFAL seguindo tabela existente para operações interestaduais;\n- Aumento na fonte para impressão de faturamento em papel 80mm;\n- Adicionado recurso para criar uma NF-e a partir de NFC-es já emitidas no sistema;\n- Adicionado relatório de classificação fiscal das compras para auxiliar contador no sintegra;\n- Adicionado informação de valor crédito e alíquotas na observação da NF-e de forma automática;\n- Correção ao salvar numeração diferenciada de contingência para emissores NFC-e;\n- Correção na importação de XML para compras com Transportadora;\n- Correção na impressão de DANF-e com observação grande, estava quebrando a folha mesmo tendo espaço no centro;\n",
+        "version": "7.15.0",
+        "launch": "2020-04-13"
+    },
+    {
+        "id": "246",
+        "title": "#246- Fusion v7.14.2",
+        "change_log": "- Adicionado importação de nfc-e para nf-e\n- Correção na importação de xml",
+        "version": "7.14.2",
+        "launch": "2020-04-07"
+    },
+    {
+        "id": "245",
+        "title": "#245- Fusion v7.14.1",
+        "change_log": "- Correção na impressão da observação da NF-e\n- Correção no emissor fiscal nfc-e\n- Correção na importação de xml\n- Adicionado relatório, compra com classificação por operação e cst\n- Adicionado relatório, compra com classificação por operações\n- Aumento da fonte da impressão 80mm do faturamento MEI\n- Adicionado possibilidade de copiar as rejeições nas telas",
+        "version": "7.14.1",
+        "launch": "2020-04-03"
+    },
+    {
+        "id": "244",
+        "title": "#244- Fusion v7.14.0",
+        "change_log": "- Adicionado recurso de Ativação e Inativação de Produtos e Pessoas;\n- Melhoria na utilização de POS para vendas feitas no MF-e;\n- Correção na exibição do botão para exportação de arquivos para integração com balança;\n- Correção na movimentação de estoque ao cancelar um cupom feito com SAT;\n- Correção na movimentação de estoque para cancelamento de nf-e baseada em pedido de venda;\n- Adicionado tarja \"cancelado\" para cupons que foram cancelados na listagem de vendas no checkout;\n- Correção na aceitação de caracteres para \"Numero pedido item\" na nf-e;",
+        "version": "7.14.0",
+        "launch": "2020-03-29"
+    },
+    {
+        "id": "243",
+        "title": "#243- Fusion v7.13.4",
+        "change_log": "- Correção na movimentação de estoque quando uma nf-e e criada a partir de um pedido de venda",
+        "version": "7.13.4",
+        "launch": "2020-03-24"
+    },
+    {
+        "id": "242",
+        "title": "#242- Fusion v7.13.3",
+        "change_log": "- Correção pagamento POS MF-e\n- Correção na exportação de código de produto para balança",
+        "version": "7.13.3",
+        "launch": "2020-03-19"
+    },
+    {
+        "id": "241",
+        "title": "#241- Fusion v7.13.2",
+        "change_log": "- Correção no cancelamento de SAT Fiscal\n- Correção no número pedido item na NF-e aceitar 15 dígitos é caracteres",
+        "version": "7.13.2",
+        "launch": "2020-03-18"
+    },
+    {
+        "id": "240",
+        "title": "#240- Fusion v7.13.0",
+        "change_log": "- Adicionado e validado o recurso de Inativação do Produto;\n- Melhorias ao receber uma rejeição 999 da Sefaz para NF-e;\n- Correção na baixa performance ao adicionar chave no MDF-e;\n- Correção na impressão da nfc-e para imprimir pelo visualizador;",
+        "version": "7.13.0",
+        "launch": "2020-03-11"
+    },
+    {
+        "id": "239",
+        "title": "#239- Fusion v7.12.2",
+        "change_log": "- Correção nos valores exibidos na impressão de apenas promissórias;\n- Correção na impressão do faturamento 80 mm;",
+        "version": "7.12.2",
+        "launch": "2020-03-03"
+    },
+    {
+        "id": "238",
+        "title": "#238- Fusion v7.12.0",
+        "change_log": "- Adicionado endereço do destinatário na impressão de faturamento;\n- Adicionado alteração de valor frete, seguro e outros ao lançar nota de compra;\n- Adicionado obs com valores separados do imposto aproximado no SAT;\n- Adicionado desconto por item no faturamento;\n- Adicionado botão para buscar produto no faturamento;\n- Adicionado cidade do encerramento ao encerrar um MDF-e;\n- Liberado impressão de pedido de venda que não esteja aberto;\n- Fixado última empresa usada ao emitir pedido de venda e orçamento;\n- Correção no código do item na impressão do faturamento;",
+        "version": "7.12.0",
+        "launch": "2020-02-26"
+    },
+    {
+        "id": "237",
+        "title": "#237- Fusion v7.11.2",
+        "change_log": "- Adicionado nova opção de busca de produtos no faturamento (Lupa);\n- Adicionado opção de desconto no item lançado no faturamneto;\n- Adicionado visualização do emitente na listagem de CT-e e CT-e OS;\n- Adicionado visualização da chave do CT-e na listagem;\n- Correção nos valores totais dos itens com ST no Sintegra;",
+        "version": "7.11.2",
+        "launch": "2020-02-19"
+    },
+    {
+        "id": "236",
+        "title": "#236- Fusion v7.11.1",
+        "change_log": "- Correção abrir primeiro caixa individual;\n- Correção ao registrar fluxo de abertura no caixa individual;\n- Adicionado recurso para informar a cidade de encerramento do MDF-e;",
+        "version": "7.11.1",
+        "launch": "2020-02-18"
+    },
+    {
+        "id": "235",
+        "title": "#235- Fusion v7.11.0",
+        "change_log": "- Adicionado sincronização dos caixas feitos na NFC-e para o gestor;\n- Melhorias e correções na geração do arquivo Sintegra;\n- Adicionado relatório de CT-e na nova plataforma de relatórios;\n- Correção na totalização do Relatório de movimentações na NF-e;\n- Correção nas dependências do sistema que ocasionava erros de Assembly;",
+        "version": "7.11.0",
+        "launch": "2020-02-10"
+    },
+    {
+        "id": "234",
+        "title": "#234- Fusion v7.10.0",
+        "change_log": "- Adicionado emissão de CT-E de Substituição e Anulação;\n- Correção no erro de dependência ao exportação de pacote XML;\n- Melhorias no SETUP para evitar erro de DLL em uso;",
+        "version": "7.10.0",
+        "launch": "2020-01-27"
+    },
+    {
+        "id": "233",
+        "title": "#233- Fusion v7.9.4",
+        "change_log": "- Correção no arquivo Sintegra para números de nf-e maiores que 6 digitos;\n- Alterado forma como as janelas de parcelamento são exibidas para prevenir problema de exibição em alguns sistemas operacionais.",
+        "version": "7.9.4",
+        "launch": "2020-01-23"
+    },
+    {
+        "id": "232",
+        "title": "#232- Fusion v7.9.3",
+        "change_log": "- Correção ao migrar documentos a receber para nova versão",
+        "version": "7.9.3",
+        "launch": "2020-01-21"
+    },
+    {
+        "id": "231",
+        "title": "#231- Fusion v7.9.2",
+        "change_log": "- Correção na checagem da Licença Fusion Starter ao abrir Gestor;",
+        "version": "7.9.2",
+        "launch": "2020-01-18"
+    },
+    {
+        "id": "230",
+        "title": "#230- Fusion v7.9.1",
+        "change_log": "- Correção no sincronizador da nfc-e após melhorias do financeiro;\n- Correção nos campos editáveis ao criar um documento a receber;\n- Correção no consumo dos adicionais para segunda máquina;\n- Correção na edição do cfop do item da compra para edição;\n- Alguns ajustes de prevenção na geração do sintegra;",
+        "version": "7.9.1",
+        "launch": "2020-01-17"
+    },
+    {
+        "id": "229",
+        "title": "#229- Fusion v7.9.0",
+        "change_log": "- Correção ao converter produtos pelo Conversor (estoque mínimo);\n- Registrado recebimento do Documentos a Receber no Caixa Individual;\n- Adicionado cálculo de juros automático no Documentos a Receber com base em Taxa definida na Configuração;\n- Adicionado legenda indicativa de situação para os Documentos a Receber;\n- Alterado layout e filtros da listagem de Documentos a Receber;\n- Alterado layout da janela de quitação do Documentos a Receber;\n- Alterado layout da janela de edição do Documento a Receber;\n- Alterado layout de Impressão da Promissória e Promissória com Carnê;",
+        "version": "7.9.0",
+        "launch": "2020-01-15"
+    },
+    {
+        "id": "228",
+        "title": "#228- Fusion v7.8.5",
+        "change_log": "- Correção busca produto NFC-e\n- Correção busca produto ADM\n- Registro 74 Sintegra adicionado\n- Correção em Relatório Fiscal 55 é 65\n- Correção Conversão de pedido de venda para NF-e\n- Correção ao alterar o emissor nf-e trocar regime tributário da empresa\n",
+        "version": "7.8.5",
+        "launch": "2020-01-08"
+    },
+    {
+        "id": "227",
+        "title": "#227- Fusion v7.8.4",
+        "change_log": "- Melhoria na importação de compras por XML para respeitar valores de rateio do XML;\n- Adicionado informação de qual chave foi importada no MD-E;\n- Correção na busca por referência no checkout;\n- Correção ao informar IE da transportadora no NF-E;\n- Correção ao utilizar caractere { em qualquer lugar na NF-E;",
+        "version": "7.8.4",
+        "launch": "2020-01-06"
+    },
+    {
+        "id": "226",
+        "title": "#226- Fusion v7.8.3",
+        "change_log": "- Melhoria no envio de e-mails de xmls\n- Retirado do PerfilCfop o movimenta estoque\n- Visualizar pedido de venda pela Grid de Pedidos\n- Adicionado opção para escolher a quantidade de produtos que serão buscados no NFC-e (F6)\n- Inclusão de busca por referência do produto na NFC-e\n- Correção na adição de Destinatário da NFC-e\n- MD-e adicionado status para saber quais NF-e já foram importadas para o sistema\n- Correção na emissão de CT-e para o estado do PR\n- Correção ao cancelar item de NFC-e\n- Correção na sincronização de produto para NFC-e\n- Adicionado tratamento para NFC-E Denegada",
+        "version": "7.8.3",
+        "launch": "2019-12-26"
+    },
+    {
+        "id": "225",
+        "title": "#225- Fusion v7.8.1",
+        "change_log": "- Correção ao altear e salvar as tributações de itens no lançamento de compra;\n- Correção e melhorias no fluxo de emissão de nfce com erros 999;",
+        "version": "7.8.1",
+        "launch": "2019-12-12"
+    },
+    {
+        "id": "224",
+        "title": "#224- Fusion v7.8.0",
+        "change_log": "- Adicionado namespace do portal da sefaz na tag NF-e do xml exportado para melhor compatibilidade com sistemas dos contadores;\n- Adicionado recurso para emitir NFC-E sem o aparelho MF-e do Ceara;\n- Adicionado recurso para emitir documentos com emissor que tenha CPF;\n- Adicionado recurso para estoque mínimo com resultado em relatório;\n- Adicionado configuração padrão de envio de e-mail utilizando naoresponda@sistemafusion.com.br;\n- Adicionado recurso para informar o Vendedor no Pedido de venda e Orçamento;\n- Correção na primeira sincronização do terminal em instalações novas;\n- Correção na consulta protocolo do CT-E;\n- Correção na migração do fluxo de caixa ao converter data;\n- Correção ao informar valor da carga no MDF-E;\n- Correção na URL de contingência do CT-E;",
+        "version": "7.8.0",
+        "launch": "2019-12-02"
+    },
+    {
+        "id": "223",
+        "title": "#223- Fusion v7.7.6",
+        "change_log": "- Correção primeira sincronização NFC-e",
+        "version": "7.7.6",
+        "launch": "2019-11-26"
+    },
+    {
+        "id": "222",
+        "title": "#222- Fusion v7.7.5",
+        "change_log": "- Correção MF-e",
+        "version": "7.7.5",
+        "launch": "2019-11-26"
+    },
+    {
+        "id": "221",
+        "title": "#221- Fusion v7.7.4",
+        "change_log": "- Correção na URL do QrCode para CTE-OS emitidos em contingência.",
+        "version": "7.7.4",
+        "launch": "2019-11-25"
+    },
+    {
+        "id": "220",
+        "title": "#220- Fusion v7.7.3",
+        "change_log": "- Correção ao atualizar clientes com mais de um terminal para o nfc-e",
+        "version": "7.7.3",
+        "launch": "2019-11-23"
+    },
+    {
+        "id": "219",
+        "title": "#219- Fusion v7.7.2",
+        "change_log": "- Correção no cálculo automático de valor da carga do mdf-e;\n- Correção na atualização do banco de dados que tem fluxo de caixa;",
+        "version": "7.7.2",
+        "launch": "2019-11-22"
+    },
+    {
+        "id": "218",
+        "title": "#218- Fusion v7.7.0 - Multi-emissão na NFC-E",
+        "change_log": "- Agora é possível escolher no terminal da nfc-e qual empresa deseja emitir o cupom;\n- Adicionado informações do emitente no rodapé da tela do terminal;\n- Adicionado configuração da impressão para pedido de venda e orçamento;\n- Correção no cálculo de impostos automático da nf-e;\n- Correção ao calcular DIFAL com alíquota interna menor que interestadual;\n- Correção ao emitir nf-e com origem da mercadoria diferente da padrão;\n- Correção na exibição da tela do terminal para máquinas com resolução menor que 1366x768;\n- Removido relatório fiscal de nf-e que estava com erro;",
+        "version": "NFC-E",
+        "launch": "2019-11-20"
+    },
+    {
+        "id": "217",
+        "title": "#217- Fusion v7.6.4",
+        "change_log": "- Correção no cálculo automático dos impostos para na nf-e a partir do primeiro item.",
+        "version": "7.6.4",
+        "launch": "2019-11-13"
+    },
+    {
+        "id": "216",
+        "title": "#216- Fusion v7.6.3",
+        "change_log": "- Correção no cálculo de DIFAL para Aliquota Interna menor que Aliquota Interestadual",
+        "version": "7.6.3",
+        "launch": "2019-11-11"
+    },
+    {
+        "id": "215",
+        "title": "#215- Fusion v7.6.2",
+        "change_log": "- Correção em origem de mercadoria",
+        "version": "7.6.2",
+        "launch": "2019-11-08"
+    },
+    {
+        "id": "214",
+        "title": "#214- Fusion v7.6.1",
+        "change_log": "- Correção no layout do Checkout Nfce para resoluções menores;\n- Removido relatório fiscal de nf-e o novo Relatório fiscal modelo 55 e 65 deve ser utilizado em seu lugar.\n- Adicionado configuração para preferencias de impressão do Pedido de Venda.",
+        "version": "7.6.1",
+        "launch": "2019-11-07"
+    },
+    {
+        "id": "213",
+        "title": "#213- Fusion v7.6.0",
+        "change_log": "- Alteração na estrutura do NFC-E para o estado CE para aceitar usar o Integrador sem o MF-E\n- Definido cultura padrão do sistema para PT-BR para evitar configuração errada no windows;\n- Bloqueado edição de um MDF-E que esteja pendente envio para sefaz;\n- Adicionado cálculo automático para carga do MDF-E;\n- Adicionado Valor total da Carga na impressão do MDF-E;\n- Permitido finalização de um Pedido de Venda com visitante para Cupom e Faturamento;\n- Correção no Relatório Fiscal Modelo 55 e 65;",
+        "version": "7.6.0",
+        "launch": "2019-11-05"
+    },
+    {
+        "id": "212",
+        "title": "#212- Fusion v7.5.5",
+        "change_log": "- Correção nas URL's para QrCode do CTE OS;\n- Correção na impressão do QrCode para CTE;\n- Correção nos relatórios de analises para produtos em vendas com desconto;",
+        "version": "7.5.5",
+        "launch": "2019-10-16"
+    },
+    {
+        "id": "211",
+        "title": "#211- Fusion v7.5.4",
+        "change_log": "- Correção URL QrCode do CT-E para estado do PE e SP",
+        "version": "7.5.4",
+        "launch": "2019-10-14"
+    },
+    {
+        "id": "210",
+        "title": "#210- Fusion v7.5.3",
+        "change_log": "- Atalhos do caixa foram movidos para aba de Financeiro;\n- Abertura de caixa agora solicita qual o valor deseja iniciar o caixa;\n- Fechamento de caixa agora solicita o valor em dinheiro existente no caixa;\n- Correção em algumas URL's para QrCode do CT-e;",
+        "version": "7.5.3",
+        "launch": "2019-10-09"
+    },
+    {
+        "id": "209",
+        "title": "#209- Fusion v7.5.1",
+        "change_log": "- Correção na URL do QrCode para emitentes de CTE do estado de SP;",
+        "version": "7.5.1",
+        "launch": "2019-10-07"
+    },
+    {
+        "id": "208",
+        "title": "#208- Fusion v7.5.0",
+        "change_log": "- Correção no tamanho da descrição do item para cupom fiscal;\n- Correção na validação ao adicionar proprietário para veículo próprio;\n- Correção na configuração de pré-visualização de cupom para terminal;\n- Adicionado busca pelo código na opção F6 do terminal;\n- Adicionado filtros por data e emitente na listagem de mdf-e;\n- Adicionado validação ao adicionar chave duplicada pra mdf-e;\n- Adicionado nome do emitente na listagem do mdf-e;\n- Adicionado desconto por porcentagem na finalização do cupom em terminal;\n- Adicionado configuração para solicitar dados do cartão ao finalizar cupom em terminal;\n- Adicionado configuração para solicitar preço e quantidade antes de adicionar item para terminal;\n- Melhoria no layout de impressão do mdf-e para não repetir cabeçalho em todas as paginas;",
+        "version": "7.5.0",
+        "launch": "2019-10-07"
+    },
+    {
+        "id": "207",
+        "title": "#207- Fusion v7.4.2",
+        "change_log": "- Correção na emissão de CT-E com partilha para simples nacional;\n- Correção na permissão para pedido de venda;",
+        "version": "7.4.2",
+        "launch": "2019-10-01"
+    },
+    {
+        "id": "206",
+        "title": "#206- Fusion v7.4.0 - Novo Recurso MD-E",
+        "change_log": "- Adicionado novo recurso MD-E (Manifesto do Destinatário);\n- Correção na listagem de linhas do csv para o Conversor;\n- Melhorias no SETUP serviços não são iniciados enquanto o sistema atualiza;\n- Correção ao adicionar percurso no MDF-E e retornar ao passo anterior;\n- Adicionado validação ao inserir segundo código de barras no descarregamento do MDF-E;",
+        "version": "MD-E",
+        "launch": "2019-09-16"
+    },
+    {
+        "id": "205",
+        "title": "#205- Fusion v7.3.3",
+        "change_log": "- Correção ao fazer NF-e Complementar com valor 0,00;\n- Correção na ordenação dos itens para Pedido de Venda\n- Adicionado busca de NF-e emitidas no sistema ao fazer uma MDF-ee;\n- Correção ao alternar entre as abas do MDF-e;\n- Adicionado Troco no Faturamento e na Impressão do mesmo;\n- Utilizado Logo da Empresa para MDF-e;\n- Adicionado envio da CC-E ao enviar uma NF-e por e-mail;",
+        "version": "7.3.3",
+        "launch": "2019-09-10"
+    },
+    {
+        "id": "204",
+        "title": "#204- Fusion v7.3.2",
+        "change_log": "- Correção na ordenação dos itens ao emitir uma nfc-e",
+        "version": "7.3.2",
+        "launch": "2019-09-05"
+    },
+    {
+        "id": "203",
+        "title": "#203- Fusion v7.3.1",
+        "change_log": "- Correção emissão NF-e Pará",
+        "version": "7.3.1",
+        "launch": "2019-09-04"
+    },
+    {
+        "id": "202",
+        "title": "#202- Fusion v7.3.0",
+        "change_log": "- Melhorias de usabilidade para MDF-e;\n- Melhorias de layout visual para MDF-e;",
+        "version": "7.3.0",
+        "launch": "2019-09-03"
+    },
+    {
+        "id": "201",
+        "title": "#201- Fusion v7.2.3",
+        "change_log": "- Ajustado numeração do item na NF-e e NFC-e para atender nova NT;",
+        "version": "7.2.3",
+        "launch": "2019-09-03"
+    },
+    {
+        "id": "200",
+        "title": "#200- Fusion v7.2.2",
+        "change_log": "- Correção DACTE\n- Adicionado Veículo Novo no DACTE\n- Correção CCE",
+        "version": "7.2.2",
+        "launch": "2019-09-02"
+    },
+    {
+        "id": "199",
+        "title": "#199- Fusion v7.2.1",
+        "change_log": "- Correção emitir uma Carta Correção após uma anterior ter falhado.",
+        "version": "7.2.1",
+        "launch": "2019-08-30"
+    },
+    {
+        "id": "198",
+        "title": "#198- Fusion v7.2.0 - Layout 3.00a para CTE e CTE OS",
+        "change_log": "- Ajustes na tag de Partilha de ICMS para CTE e CTE OS;\n- Adicionado nova tag para CTE OS do tipo Transporte de Pessoas;\n- Alterado valor padrão para Falso na Partilha de ICMS para CTE e CTE OS;\n- Melhorias no Lançamento de Compras na utilização de CFOP;\n- Atualizado Layout do DACTE para versão 3.00a;\n- Melhorias na impressão do Pedido de Venda para quebrar a linha para produtos com Descrição grande;\n- Melhorias nos Papeis e Permissões de Usuários;",
+        "version": "OS",
+        "launch": "2019-08-28"
+    },
+    {
+        "id": "197",
+        "title": "#197- Fusion v7.1.2",
+        "change_log": "- Alterado compilação do Fusion NFCE para compatibilidade com DLL's do SAT compiladas em 32 bits em Sistemas Operacionais de 64 bits.",
+        "version": "7.1.2",
+        "launch": "2019-08-13"
+    },
+    {
+        "id": "196",
+        "title": "#196- Fusion v7.1.1",
+        "change_log": "- Liberado utilização de dois usuários ao mesmo tempo sem necessidade de ADICIONAL para MESMA MÁQUINA.\n- Adicionado Qr. Code para CT-e, MDF-e e CT-e os, recurso deve ser ativado para cada SEFAZ que exija;\n- Melhoria no calculo de Partilha ICMS na emissão da NF-e para não precisar configurar a alíquota interestadual;\n- Melhorias de UX na janela de Busca de Produtos na NFC-e;",
+        "version": "7.1.1",
+        "launch": "2019-08-09"
+    },
+    {
+        "id": "195",
+        "title": "#195- Fusion v7.1.0",
+        "change_log": "- Liberado utilização de dois usuários ao mesmo tempo sem necessidade de ADICIONAL para MESMA MÁQUINA.\n- Alterado layout MDF-e para atender ao Qr.Code\n- Alterado layout CT-e os para atender ao Qr.Code",
+        "version": "7.1.0",
+        "launch": "2019-08-02"
+    },
+    {
+        "id": "194",
+        "title": "#194- Fusion v7.0.6",
+        "change_log": "- Correção na impressão do DACT-E;\n- Correção na ortografia do imposto aproximado na NF-E;",
+        "version": "7.0.6",
+        "launch": "2019-07-30"
+    },
+    {
+        "id": "193",
+        "title": "#193- Fusion v7.0.5",
+        "change_log": "- Correção na impressão da nfc-e: nome fantasia;\n- Correção na impressão da nf-e: tipo de frete;\n- Correção nos relatórios de estoque: agora exibem apenas produtos ativos;\n- Correção na exibição da listagem de itens ao fazer uma nf-e;\n- Correção na movimentação de estoque ao converter pedido para faturamento;",
+        "version": "7.0.5",
+        "launch": "2019-07-26"
+    },
+    {
+        "id": "192",
+        "title": "#192- Fusion v7.0.4",
+        "change_log": "- Correções TEF",
+        "version": "7.0.4",
+        "launch": "2019-07-24"
+    },
+    {
+        "id": "191",
+        "title": "#191- Fusion v7.0.3",
+        "change_log": "- Adicionado recurso para referenciar documentos no CTE OS para excesso de bagagem;\n- Adicionado relatório de vendas com itens por usuários;\n- Adicionado relatório fiscal modelo 55 e 65;\n- Correção ao alterar item no faturamento;\n- Correção ao sincronizar eventos de estoque para nfc-e;\n- Correção nos pagamentos ao fazer nota fiscal de devolução;",
+        "version": "7.0.3",
+        "launch": "2019-07-23"
+    },
+    {
+        "id": "190",
+        "title": "#190- Fusion v7.0.2",
+        "change_log": "- Melhorias na transmissão dos pagamentos para MF-e (Ceará)",
+        "version": "7.0.2",
+        "launch": "2019-07-15"
+    },
+    {
+        "id": "189",
+        "title": "#189- Fusion v7.0.1",
+        "change_log": "- Adicionado DLL para SAT da Control ID;\n- Agora é possível utilizar quantidade 0,00 em notas complementares;\n- Alterado compilação do sistema para melhor compatibilidade com x64\n- Correção ao converter Pedido de Venda com desconto para Faturamento MEI;\n- Correção ao converter Pedido de Venda para nf-e que o nome do Cliente seja maior que 60 caracteres;\n- Correção ao gerar XML da NF-e com forma de pagamento Devolução.",
+        "version": "7.0.1",
+        "launch": "2019-07-15"
+    },
+    {
+        "id": "188",
+        "title": "#188- Fusion v7.0.0",
+        "change_log": "- Implementado Controle de Caixa;\n- Implementado Controle de Usuário;\n- Adicionado forma de pagamento Cartão todas as vendas;\n- Adicionado opção de clique para desconto no Pedido de Venda;\n- Alterado idioma do visualizador de impressão para PT-BR;\n- Adicionado telefone na impressão do Cupom Fiscal;\n- Adicionado logo própria para Cupom Fiscal na empresa;\n- Alterado DANFE para exibir 4 casas decimais;\n- Adicionado importação de Templates para relatórios;\n- Correção ao migrar decimal nulo no Conversor de Dados.",
+        "version": "7.0.0",
+        "launch": "2019-07-03"
+    },
+    {
+        "id": "187",
+        "title": "#187- Fusion v6.8.10",
+        "change_log": "- Correção Atualizador\n- Adicionado Recurso nos emissor fiscal de cadastrar CNPJ/CPF autorizados a fazerem download do XML NF-e/NFC-e",
+        "version": "6.8.10",
+        "launch": "2019-06-06"
+    },
+    {
+        "id": "186",
+        "title": "#186- Fusion v6.8.9",
+        "change_log": "- Correção ao aplicar desconto com decimais para pedido de venda\n- Correção ao importar pedido de venda com desconto para nfc-e\n- Correção ao importar pedido de venda com desconto para faturamento",
+        "version": "6.8.9",
+        "launch": "2019-06-05"
+    },
+    {
+        "id": "185",
+        "title": "#185- Fusion v6.8.8",
+        "change_log": "- Melhorias sincronizador NFC-e",
+        "version": "6.8.8",
+        "launch": "2019-05-22"
+    },
+    {
+        "id": "184",
+        "title": "#184- Fusion v6.8.7",
+        "change_log": "- Correção em carta correção para Ceará",
+        "version": "6.8.7",
+        "launch": "2019-05-15"
+    },
+    {
+        "id": "183",
+        "title": "#183- Fusion v6.8.6",
+        "change_log": "- Correção nos arquivos XML emitidos no ano de 2019 que possuem a tag cMsg nula;\n- Alterado impressão do DANF-e para Duas Linhas quando necessário;\n- Correção ao utilizar Perfil para NF-e com CSOSN e o mesmo não ser respeitado;\n- Correção no grupo de ICMS 60 e 500 para NF-e;",
+        "version": "6.8.6",
+        "launch": "2019-05-07"
+    },
+    {
+        "id": "182",
+        "title": "#182- Fusion v6.8.5",
+        "change_log": "- Correção de erro ao emitir NF-e com observação no item que contenha espaços;\n- Agora é possível editar o Tipo de Código para o Produto;\n- Alterado validação do código de barras para padrão GS1 (gtin);\n- Alterado quantidade de decimais de 4 para 10 no Banco de Dados e no XML para item da NF-e;",
+        "version": "6.8.5",
+        "launch": "2019-04-18"
+    },
+    {
+        "id": "181",
+        "title": "#181- Fusion v6.8.4",
+        "change_log": "- Adicionado no conversor de dados a coluna \"obs\" e mais colunas para os telefones;",
+        "version": "6.8.4",
+        "launch": "2019-04-16"
+    },
+    {
+        "id": "180",
+        "title": "#180- Fusion v6.8.3",
+        "change_log": "- Correção no relatório de vendas no faturamento;\n- Melhoria na impressão do pedido de venda;\n- Retirado reajuste de tamanho ao incluir uma logo na empresa;",
+        "version": "6.8.3",
+        "launch": "2019-04-15"
+    },
+    {
+        "id": "179",
+        "title": "#179- Fusion v6.8.2",
+        "change_log": "- Adicionado total no Relatório de vendas no faturamento\n- Correção ao deletar item da NF-e que tenha Icms Interstadual\n- Correção na utilização de filtro por periodo",
+        "version": "6.8.2",
+        "launch": "2019-04-09"
+    },
+    {
+        "id": "178",
+        "title": "#178- Fusion v6.8.1",
+        "change_log": "- Correção de schema ao emitir carta correção\n- Correção de schema ao emitir cancelamento",
+        "version": "6.8.1",
+        "launch": "2019-03-26"
+    },
+    {
+        "id": "177",
+        "title": "#177- Fusion v6.8.0",
+        "change_log": "- Aumentado tamanho da coluna que fica o template do relatório para relatórios maiores;\n- Alterado tag para 6.8.0 para seguir o fluxo de lançamento",
+        "version": "6.8.0",
+        "launch": "2019-03-22"
+    },
+    {
+        "id": "176",
+        "title": "#176- Fusion v6.7.11",
+        "change_log": "- Adicionado recurso para emitir CTE-OS em Contingência SVC\n- Adicionado responsável técnico para documentos fiscais\n- Melhoria na edição e criação dos relatórios pelo sistema",
+        "version": "6.7.11",
+        "launch": "2019-03-21"
+    },
+    {
+        "id": "175",
+        "title": "#175- Fusion v6.7.10",
+        "change_log": "Adicionado Unidade Tributável no Produto",
+        "version": "6.7.10",
+        "launch": "2019-03-15"
+    },
+    {
+        "id": "174",
+        "title": "#174- Fusion v6.7.9",
+        "change_log": "- Correção no carregamento do proprietário do veículo\n- Adicionado Carta Correção para CT-e OS",
+        "version": "6.7.9",
+        "launch": "2019-03-12"
+    },
+    {
+        "id": "173",
+        "title": "#173- Fusion v6.7.8",
+        "change_log": "Correção NFC-e offline",
+        "version": "6.7.8",
+        "launch": "2019-03-08"
+    },
+    {
+        "id": "172",
+        "title": "#172- Fusion v6.7.7",
+        "change_log": "- NFC-e/SAT/MF-e Emitem em Regime Normal\n- Melhorias no Conversor\n- FusionNFCe gera financeiro se o tipo documento registra financeiro\n- Correção na conversão do pedido de venda para Fusion NFC-e\n- Adicionado Flag no Perfil NF-e para definir se irá gerar ICMS Interestadual\n- Melhorias Impressão do TEF\n- Adicionado Filtros na Lista de Pessoas",
+        "version": "6.7.7",
+        "launch": "2019-03-07"
+    },
+    {
+        "id": "171",
+        "title": "#171- Fusion v6.7.6",
+        "change_log": "- Correção ao alterar item da nfc-e que o valor unitário precise de 6 casas decimais;\n- Correção no conversor para registrar evento de estoque;\n- Correção no evento de estoque de base de dados que foram convertidas.",
+        "version": "6.7.6",
+        "launch": "2019-02-28"
+    },
+    {
+        "id": "170",
+        "title": "#170- Fusion v6.7.5",
+        "change_log": "Conversor - Adicionado coluna observação\nFaturamento - Adicionado botão para iniciar um novo faturamento de dentro do próprio faturamento\nNFC-e - Correção no cancelamento de TEF\nNFC-e - Melhoria na impressão de TEF\n",
+        "version": "6.7.5",
+        "launch": "2019-02-25"
+    },
+    {
+        "id": "169",
+        "title": "#169- Fusion v6.7.4",
+        "change_log": "- Correção na atualização da base de dados da nfc-e em versões muito antigas ou instalações novas\n- Atualização das bases novas para a última versão.",
+        "version": "6.7.4",
+        "launch": "2019-02-21"
+    },
+    {
+        "id": "168",
+        "title": "#168- Fusion v6.7.3",
+        "change_log": "Faturamento - Aviso de troco\nConversor - Adicionado campos Percentual MVA e Redução ICMS\nPedido de Venda - Correção em pagamentos\nCadastro de Produto - Correção em validação de código de barras\nMigrador Fluente - Correção em script de migração\nCadastro de Empresa - Adicionado logo marca para imprimir juntamente com os documentos eletrônicos",
+        "version": "6.7.3",
+        "launch": "2019-02-20"
+    },
+    {
+        "id": "167",
+        "title": "#167- Fusion v6.7.2",
+        "change_log": "Alterado Fluxo de pagamento TEF NFC-e\nAdicionado Ncm relatório inventário",
+        "version": "6.7.2",
+        "launch": "2019-02-19"
+    },
+    {
+        "id": "166",
+        "title": "#166- Fusion v6.7.1",
+        "change_log": "IMPORTANTE: .NET FOI ATUALIZADO PARA 4.6.2\n\n- Recurso para emissão de NF-e (Regime Normal)\n- Melhorias no pagamento do Pedido e Faturamento\n- Adicionado configuração para gerar financeiro no \"Tipo de Documento\"\n- Removido obrigatoriedade do centro de lucro para gerar um documento a receber.",
+        "version": "6.7.1",
+        "launch": "2019-02-14"
+    },
+    {
+        "id": "165",
+        "title": "#165- Fusion v6.6.14",
+        "change_log": "- Feito gerenciador de relatórios para o FastReport por dentro do sistema\n- Feito relatório de etiqueta",
+        "version": "6.6.14",
+        "launch": "2019-02-06"
+    },
+    {
+        "id": "164",
+        "title": "#164- Fusion v6.6.13",
+        "change_log": "- Conversor agora importa clientes e produtos para base com dados existentes.",
+        "version": "6.6.13",
+        "launch": "2019-01-25"
+    },
+    {
+        "id": "162",
+        "title": "#162- Fusion v6.7.0",
+        "change_log": "- Versão de urgência com adaptação do Fusion para Regime Normal\n- Clientes optantes pelo simples não DEVEM ser atualizadas para esta versão.\n\n- Caso precise da versão, solicite-a para nós",
+        "version": "6.7.0",
+        "launch": "2019-01-24"
+    },
+    {
+        "id": "163",
+        "title": "#163- Fusion v6.6.12",
+        "change_log": "- Adicionado suporte para emissão de CT-E Complementar;\n- Adicionado busca de clientes por telefone e e-mail na janela de seleção;\n- Adicionado opção para pre-visualização da impressão na NFC-e;\n- Adicionado recurso para enviar Pedido de Venda ou Orçamento por email;\n- Adicionado recurso para permitir emitir uma NF-e sem dhSaiEnt;\n\n- Melhoria no processo de autorização do CT-E na SEFAZ;\n\n- Correção ao utilizar busca na janela de seleção do veiculo;\n- Correção ao receber retorno de DENEGADO no CT-E OS;",
+        "version": "6.6.12",
+        "launch": "2019-01-24"
+    },
+    {
+        "id": "161",
+        "title": "#161- Fusion v6.6.11",
+        "change_log": "* Adicionado relatório de estoque patrimonial;\n* Correção no relatório de compras com os itens;\n* Alterado ordenação dos produtos para A-z no relatório de Contagem de Estoque;",
+        "version": "6.6.11",
+        "launch": "2019-01-08"
+    },
+    {
+        "id": "160",
+        "title": "#160- Fusion v6.6.10",
+        "change_log": "* Adicionado número do telefone na impressão do pedido/orçamento\n* Correção de importação de pedido/orçamento na nfc-e;\n* Correção ao emitir ct-e com IE e CPF;",
+        "version": "6.6.10",
+        "launch": "2019-01-07"
+    },
+    {
+        "id": "159",
+        "title": "#159- Fusion v6.6.9",
+        "change_log": "* Correção no cálculo e arrendondamento no pedido de venda;\n* Correção no CEP para carta correção do CT-E;",
+        "version": "6.6.9",
+        "launch": "2018-12-31"
+    },
+    {
+        "id": "158",
+        "title": "#158- Fusion v6.6.8",
+        "change_log": "* Corrigido formatação da dhRecbto para o XML do CT-e;\n* Retirado acentos p/ nomes no xml do MDF-e;",
+        "version": "6.6.8",
+        "launch": "2018-11-30"
+    },
+    {
+        "id": "157",
+        "title": "#157- Fusion v6.6.7",
+        "change_log": "* Adicionado recurso para emissão de CT-E em contingência SVC\n* Melhoria no conversor de dados para aceitar clientes sem CPF u CNPJ.",
+        "version": "6.6.7",
+        "launch": "2018-11-28"
+    },
+    {
+        "id": "156",
+        "title": "#156- Fusion v6.6.6",
+        "change_log": "* [NFC-e apenas] Alterado layout do cupom fiscal;\n* Correção ao importar compra com produto que contenha codigo barras nos sistema e que não esteja marcado como tal;\n* Correção salvar produto na importação de compra que o código já exista no sistema;\n* Correção na impressão do \"De Olho no Imposto\" para MF-E CE;",
+        "version": "6.6.6",
+        "launch": "2018-11-23"
+    },
+    {
+        "id": "155",
+        "title": "#155- Fusion v6.6.5",
+        "change_log": "* Alteração de layout para impressão de CT-E;\n* Adicionado recurso para atualizar base de dados no conversor;\n* Adicionado watermark na impressão do pedido para cancelados, faturados e abertos;\n* Melhoria no recurso de edição do pedido de venda pela listagem do menu;",
+        "version": "6.6.5",
+        "launch": "2018-11-21"
+    },
+    {
+        "id": "154",
+        "title": "#154- Fusion v6.6.4",
+        "change_log": "* Correção na emissão de CT-e (detectado na versão anterior);\n* Melhoria no tratamento ao receber rejeição 999 da sefaz;",
+        "version": "6.6.4",
+        "launch": "2018-11-14"
+    },
+    {
+        "id": "153",
+        "title": "#153- Fusion v6.6.3 (detectado problema na emissao cte)",
+        "change_log": "IMPORTANTE - NÃO ATUALIZE CLIENTES COM CT-E\n\n* Adicionado recurso para converter pedido de venda em faturamento;\n* Adicionado recurso para aceitar visitante tem orçamento;\n* Adicionado recurso para alterar valor do item antes de lançado no pedido ou orcamento;\n* Adicionado campo no produto para ser enviado na tag cProd da nf-e e nfc-e;\n* Correção no conversor para ncm com pontos;\n* Unificado configuração para validar estoque;\n* Adaptado veiculo e documentos para aceitar novo padrão de placas do Mercosul;",
+        "version": "cte)",
+        "launch": "2018-11-09"
+    },
+    {
+        "id": "152",
+        "title": "#152- Fusion v6.6.2",
+        "change_log": "* Adicionado suporte para Percentual de GLP no produto com código ANP correspondente;\n* Correção e melhorias na janela de solicitação de preço no nfc-e;\n* Melhorias na validação do conversor de dados",
+        "version": "6.6.2",
+        "launch": "2018-11-01"
+    },
+    {
+        "id": "151",
+        "title": "#151- Fusion v6.6.1",
+        "change_log": "* Adicionado alocar próximo número para NFC-e;\n* Correção de pagamento na nfc-e após uma rejeição e alteração nos itens;\n* Correção na emissão da nf-e quando ocorrer duplicidade;",
+        "version": "6.6.1",
+        "launch": "2018-10-30"
+    },
+    {
+        "id": "150",
+        "title": "#150- Fusion v6.6.0",
+        "change_log": "* Adicionado novos relatórios;\n* Adicionado previsão de inicio para documento MDF-E;\n* Adicionado mais opções de filtro para a listagem de NF-e;\n* Melhorias na listagem de relatórios;\n* Melhorias na estrutura de banco de dados;\n* Adicionado módulo de testes do SINTEGRA;",
+        "version": "6.6.0",
+        "launch": "2018-10-30"
+    },
+    {
+        "id": "149",
+        "title": "#149- Fusion v6.5.13",
+        "change_log": "* Correção ao adicionar alguns itens na nfc-e sem código de barras;",
+        "version": "6.5.13",
+        "launch": "2018-10-19"
+    },
+    {
+        "id": "148",
+        "title": "#148- Fusion v6.5.12",
+        "change_log": "* Adaptação do layout do MDF-e para compatibilidade da última NT até o dia de hoje;\n* Criado novo Sistema para conversão de dados baseado em arquivo CSV;\n* Alterado Razão Social para Nome Fantasia na impressão do Faturamento;\n* Correção ao recuperar vendas no NFC-E com item cancelado;",
+        "version": "6.5.12",
+        "launch": "2018-10-18"
+    },
+    {
+        "id": "147",
+        "title": "#147- Fusion v6.5.11",
+        "change_log": "* Adaptação do layout do ct-e para nova NT;\n* Correção na importação de nfe no cte;\n* Melhorias no processo de impressão da nfc-e para evitar duplicidade de impressão.",
+        "version": "6.5.11",
+        "launch": "2018-10-11"
+    },
+    {
+        "id": "146",
+        "title": "#146- Fusion v6.5.10",
+        "change_log": "* Correção no instalador Fusion Completo.",
+        "version": "6.5.10",
+        "launch": "2018-09-27"
+    },
+    {
+        "id": "145",
+        "title": "#145- Fusion v6.5.9",
+        "change_log": "* Retirado instalador do .net 4.6.2 do Fusion Completo e adicionado o 4.5.2 para melhor compatibilidade com windows 7;\n* Correção ao abrir sistema com usuário definido para \"Somente Faturamento\" sem o Fusion Starter liberado;\n* Correção ao abrir faturamento onde a empresa não está com Identificador 1;\n* Validação ao importar XML de NF-E no CT-E sem o documento único de algum dos participantes;\n* Adicionado observação para Faturamento MEI e também na impressão.",
+        "version": "6.5.9",
+        "launch": "2018-09-26"
+    },
+    {
+        "id": "144",
+        "title": "#144- Fusion v6.5.8",
+        "change_log": "* Correção na URL de Consulta do QR.Code para o estado do TO.",
+        "version": "6.5.8",
+        "launch": "2018-09-17"
+    },
+    {
+        "id": "143",
+        "title": "#143- Fusion v6.5.7",
+        "change_log": "* Melhoria na listagem de pagamentos da impressão do faturamento;\n* Agora é possível imprimir faturamento em duas vias;\n* Agora é possível editar o preço após lançar item no faturamento;\n* Adicionado DLL para SAT NITERE;",
+        "version": "6.5.7",
+        "launch": "2018-09-17"
+    },
+    {
+        "id": "142",
+        "title": "#142- Fusion v6.5.6",
+        "change_log": "* Correção no licenciamento para data de hoje.",
+        "version": "6.5.6",
+        "launch": "2018-09-11"
+    },
+    {
+        "id": "141",
+        "title": "#141- Fusion v6.5.5",
+        "change_log": "* Implementado QR Code 2.0 para nfc-e;\n* Implementado impressão A4 para faturamento;\n* Implementado recurso para calculo manual do IPI, PIS e COFINS na NF-E;\n* Aumentado tamanho da descrição do produto no xml da nf-e para 120;\n* Agora é possível escolher se quer imprimir o faturamento após faturar;\n* Agora na instalação os serviços são marcados como automáticos;\n* Agora é possível editar o CFOP do item da NF-E;",
+        "version": "6.5.5",
+        "launch": "2018-09-10"
+    },
+    {
+        "id": "140",
+        "title": "#140- Fusion v6.5.4",
+        "change_log": "* Correção na URL do QrCode para o estado do PE",
+        "version": "6.5.4",
+        "launch": "2018-08-29"
+    },
+    {
+        "id": "139",
+        "title": "#139- Fusion v6.5.3",
+        "change_log": "* Emissão de NFC-E baseada em um pedido de venda;\n* Melhoria na aba de destinatário da nf-e;\n* Correção no cálculo de imposto aproximado no PDV-ECF;\n* Melhorias no perfil e na importação de nf-e para ct-e;",
+        "version": "6.5.3",
+        "launch": "2018-08-28"
+    },
+    {
+        "id": "138",
+        "title": "#138- Fusion v6.5.2",
+        "change_log": "* Adicionado campo de referência para o pedido de venda\n* Correção da label CNPJ/CPF na impressão do pedido de venda\n* Adicionado status \"Finalizado\" para o pedido de venda\n* Melhoria nos filtros e listagem dos pedidos\n* Compactado impressão do pedido de venda",
+        "version": "6.5.2",
+        "launch": "2018-08-25"
+    },
+    {
+        "id": "137",
+        "title": "#137- Fusion v6.5.1",
+        "change_log": "* Melhorias no fluxo de pagamento e finalização da nfe;\n* Correção nos atalhos do Pedido de Venda e Orçamento;\n* Alterado nome do pagamento \"Crediario\" no pedido para \"A Prazo\";\n* Adicionado mais opções de CSOSN no item da NFC-e para compatibilidade com os estados;\n* Alterado versão do Dot Net do instalador completo para v4.6.2",
+        "version": "6.5.1",
+        "launch": "2018-08-21"
+    },
+    {
+        "id": "136",
+        "title": "#136- Fusion v6.5.0",
+        "change_log": "* Adicionado Pedido de venda e Orçamento\n* Adicionado Conversão de pedido de venda ou orçamento para NF-e",
+        "version": "6.5.0",
+        "launch": "2018-08-15"
+    },
+    {
+        "id": "135",
+        "title": "#135- Fusion v6.4.14",
+        "change_log": "* Correção NFC-e primeira sincronização;",
+        "version": "6.4.14",
+        "launch": "2018-08-10"
+    },
+    {
+        "id": "134",
+        "title": "#134- Fusion v6.4.13",
+        "change_log": "* Correção na emissão de CT-E OS para o estado de SP após atualização da SEFAZ para protocolo TLS 1.2;\n* Adicionado adaptação para novo recurso do Fusion ainda não liberado;",
+        "version": "6.4.13",
+        "launch": "2018-08-06"
+    },
+    {
+        "id": "133",
+        "title": "#133- Fusion v6.4.12",
+        "change_log": "* Melhorias na exportação de produtos para balança, agora é possível informar mais de um lugar para ser salvo o arquivo de exportação.",
+        "version": "6.4.12",
+        "launch": "2018-08-01"
+    },
+    {
+        "id": "132",
+        "title": "#132- Fusion v6.4.11",
+        "change_log": "* Retirado barra de progresso ao abrir emissor fiscal para tentar compatibilidade com versão do windows que apresentou um erro.",
+        "version": "6.4.11",
+        "launch": "2018-07-25"
+    },
+    {
+        "id": "131",
+        "title": "#131- Fusion v6.4.10",
+        "change_log": "* Agora ao exportar os produtos para a balança, o diretório utilizado ficará salvo;\n* Correção de problema ao gerar preço de venda para nota de compra com dois produtos iguais;\n* Adicionado na listagem de produtos da nfc-e no momento da venda o ID do produto;\n* Adicionado relatório para listagem de produtos com estoque, ncm, preço venda, grupo e referência.",
+        "version": "6.4.10",
+        "launch": "2018-07-23"
+    },
+    {
+        "id": "130",
+        "title": "#130- Fusion v6.4.9",
+        "change_log": "* Correção de erro ao criar documento a receber para pessoa com limite de crédito;\n* Adicionado recurso para evitar o envio de código de barras com digito verificador inválido para a SEFAZ, o mesmo será colocado como \"SEM GTIN\";\n* Adicionado forma de pagamento \"Outros\" para NF-E/NFC-E e SAT;",
+        "version": "6.4.9",
+        "launch": "2018-07-13"
+    },
+    {
+        "id": "129",
+        "title": "#129- Fusion v6.4.8",
+        "change_log": "* Adicionado recurso para imprimir imposto aproximado na observação do CT-e;\n* Melhoria no algoritmo que verifica se o Fusion está aberto para poder ser utilizado por vários usuários no Windows Server;\n* Correção na busca de cidades no MDF-e.",
+        "version": "6.4.8",
+        "launch": "2018-07-09"
+    },
+    {
+        "id": "128",
+        "title": "#128- Fusion v6.4.7",
+        "change_log": "* Adaptação da nf-e para emissão de produtos com código ANP no layout 4.0;",
+        "version": "6.4.7",
+        "launch": "2018-06-28"
+    },
+    {
+        "id": "127",
+        "title": "#127- Fusion v6.4.6",
+        "change_log": "* Adicionado recurso para solicitar total ao vender produto com unidade configurada para tal ação no Faturamento;\n* Adicionado recurso para o sistema abrir a gaveta após cada venda, retirando essa responsabilidade da própria impressora;\n* Correção de arredondamento na finalização rápida do Frente Caixa;\n* Correção no arquivo MGV6 da balança.",
+        "version": "6.4.6",
+        "launch": "2018-06-28"
+    },
+    {
+        "id": "126",
+        "title": "#126- Fusion v6.4.5",
+        "change_log": "* Correção no cancelamento de notas 4.0 para o estado do PE;\n* Correção nos preços finalizados com zero ao exportar arquivo para balança;",
+        "version": "6.4.5",
+        "launch": "2018-06-26"
+    },
+    {
+        "id": "125",
+        "title": "#125- Fusion v6.4.4",
+        "change_log": "* Melhoria na configuração de balança para atender códigos da ELGIN;",
+        "version": "6.4.4",
+        "launch": "2018-06-23"
+    },
+    {
+        "id": "124",
+        "title": "#124- Fusion v6.4.3",
+        "change_log": "* Correção ao importar xml de compra com cpf/cnpj da transportadora fora do padrão;\n* Correção no código do produto em xml de cupom utilizando SAT;\n* Melhoria na listagem e alteração de emissor fiscal;\n* Adicionado relatório para listagem de produtos e seus códigos tributários.",
+        "version": "6.4.3",
+        "launch": "2018-06-21"
+    },
+    {
+        "id": "123",
+        "title": "#123- Fusion v6.4.2",
+        "change_log": "* Melhoria de layout da tela de finalização da nfce;\n* Adicionado exportação de produtos para cadastro em balanças no layout MGV6.",
+        "version": "6.4.2",
+        "launch": "2018-06-20"
+    },
+    {
+        "id": "122",
+        "title": "#122- Fusion v6.4.1",
+        "change_log": "Implementação Envio de GTIN NFC-e e NF-e quando tiver.\nCorreção na pesquisa de cidades",
+        "version": "6.4.1",
+        "launch": "2018-06-07"
+    },
+    {
+        "id": "121",
+        "title": "#121- Fusion v6.4.0",
+        "change_log": "* Implantação da NFC-e 4.0;\n* Padronização no banco de dados para emissão de NFC-e e SAT;\n* Correção na emissão de NF-e de devolução;",
+        "version": "6.4.0",
+        "launch": "2018-06-05"
+    },
+    {
+        "id": "120",
+        "title": "#120- Fusion v6.3.2",
+        "change_log": "* Correção na emissão de NF-e 4.0 para o estado do MA",
+        "version": "6.3.2",
+        "launch": "2018-06-04"
+    },
+    {
+        "id": "119",
+        "title": "#119- Fusion v6.3.1",
+        "change_log": "* Adicionado permissão no usuário para abrir apenas o Faturamento;\n* Adicionado recurso para utilização de código de barras da balança no Faturamento;\n* Adicionado validação no produto para não aceitar código de balança repetido;\n* Adicionado CFOP no perfil da Nf-e para sobreposição do CFOP do item;\n* Adicionado relatório exclusivo para movimentações com SAT;",
+        "version": "6.3.1",
+        "launch": "2018-06-01"
+    },
+    {
+        "id": "118",
+        "title": "#118- Fusion v6.3.0",
+        "change_log": "* Implementação da NF-E 4.0;\n* Implementação da importação de NF-E 4.0 para xml de compra;\n* Adicionado relatório para listar movimentações de venda com os itens;\n* Adicionado impressão para faturamento em impressora 80m;\n* Adicionado opções para faturamento finalizado (cancelamento e impressao).",
+        "version": "6.3.0",
+        "launch": "2018-05-25"
+    },
+    {
+        "id": "117",
+        "title": "#117- Fusion v6.2.4",
+        "change_log": "* Correção ao exportar pacotes de xml para os mdfe;\n* Fixado botão de gerar relatório para aniversariantes no dashboard.",
+        "version": "6.2.4",
+        "launch": "2018-05-04"
+    },
+    {
+        "id": "116",
+        "title": "#116- Fusion v6.2.3",
+        "change_log": "* Correção na importação de XML sem dhEntradaSaida;\n* Adicionado validação ao salvar produto novo sem regra de tributação saida;\n* Adicionado relatório para aniversariantes;\n* Adicionado painel para aniversariantes do dia no dashboard;\n* Adicionado painel para documentos a pagar para o dia no dashboard;\n* Melhoria de layout para menu do sistema.",
+        "version": "6.2.3",
+        "launch": "2018-04-26"
+    },
+    {
+        "id": "115",
+        "title": "#115- Fusion v6.2.2",
+        "change_log": "* Corrigido problema de emissão da nfc-e para o estado da Paraíba;",
+        "version": "6.2.2",
+        "launch": "2018-04-24"
+    },
+    {
+        "id": "114",
+        "title": "#114- Fusion v6.2.1",
+        "change_log": "* Correção do atualizador para base de dados novas do nfce",
+        "version": "6.2.1",
+        "launch": "2018-04-18"
+    },
+    {
+        "id": "113",
+        "title": "#113- Fusion v6.2.0",
+        "change_log": "* Adicionado novo recurso para Faturamento;\n* Adicionado recurso para utilização de balança no nfce;\n* Adicionado geraçao de contas apagar na importação de compra ou lançamento;\n* Alterado mecanismo de situação tributária para regra de tributação;\n* Alterado mecanismo de inicialização dos serviços Fusion;\n* Correção ao escolher o tipo do tomador em importações de xml no Cte;\n* Correção ao alocar novo número na nfe;\n* Correção ao importar xml de compra que contenha a tag \"standalone\";\n* Correção dos atalho na janela de finalização da nfce;",
+        "version": "6.2.0",
+        "launch": "2018-04-16"
+    },
+    {
+        "id": "112",
+        "title": "#112- Fusion v6.1.8",
+        "change_log": "* Adicionado novo mecanismo de relatórios;\n* Adicionado novo relatório para inutilizações;\n* Adicionado novo relatório para listar os itens que foram vendidos em um determinado período de tempo, pelo SAT ou NFCe;\n* Corrigido problema ao sincronizar endereços deletados no NFCE;\n* Adicionado recurso (configurável) para forçar o usuário a resolver todos os cupons pendentes no inicio do mês;\n* Adicionado filtro na consulta de cupons emitidos e limitado resultado das consulta para aumentar a performance;\n* Adicionado novo tipo de filtro (apenas código) na grid principal dos produtos;\n* Adicionado trava (configurável) para impedir finalização do cupom fiscal sem informar o cliente.",
+        "version": "6.1.8",
+        "launch": "2018-03-19"
+    },
+    {
+        "id": "111",
+        "title": "#111- Fusion v6.1.7",
+        "change_log": "* Criado serviço para exportar os XML da NFE ou NFCE automaticamente para uma pasta de escolha;\n* Criado campos para adicionar componentes de valor no CTe e CTe OS;\n* Corrigido problema ao deletar endereço do cliente não sincronizar com o Terminal;",
+        "version": "6.1.7",
+        "launch": "2018-03-09"
+    },
+    {
+        "id": "110",
+        "title": "#110- Fusion v6.1.6",
+        "change_log": "* Adicionado filtro da empresa no contas a receber e apagar;\n* Adicionado configuração de recuperação para os serviços ao instalar o fusion;\n* Adicionado observação individual para cada item na NF-E;\n* Adicionado opção para escolher se deseja imprimir as informações de impostos na observação da nota.",
+        "version": "6.1.6",
+        "launch": "2018-03-02"
+    },
+    {
+        "id": "109",
+        "title": "#109- Fusion v6.1.5",
+        "change_log": "* Adicionado novo recurso para buscar produtos ao adicionar item na nf-e (autocomplete);\n* Correção ao autorizar nfe utilizando csosn 900.",
+        "version": "6.1.5",
+        "launch": "2018-02-20"
+    },
+    {
+        "id": "108",
+        "title": "#108- Fusion v6.1.4",
+        "change_log": "* Adicionado label informativa de qual CSOSN o produto irá pegar;\n* Agora ao salvar a conexão com o servidor de licença a janela é fechada pelo sistema;\n* Adicionado opção de produto perigoso ao adicionar NF-e ou CT-e no MDF-e;\n* Adicionado opção de percurso para CT-e OS entre estados;\n* Melhoria no fluxo de emissão do CT-e OS;\n* Correção de erros ao alterar algumas informações da pessoa quando se utilizar a busca por CNPJ.",
+        "version": "6.1.4",
+        "launch": "2018-02-12"
+    },
+    {
+        "id": "107",
+        "title": "#107- Fusion v6.1.3",
+        "change_log": "* Correção ao cadastrar pessoas de forma automática ao utilizar lançamento por importação",
+        "version": "6.1.3",
+        "launch": "2018-02-07"
+    },
+    {
+        "id": "106",
+        "title": "#106- Fusion v6.1.2",
+        "change_log": "* Melhorias no design e grid da inutilização de nfe/nfce;\n* Correção no XML autorizado para compatibilidade com alguns sistemas de contadores;\n* Correção na importação de compras para xml com alguns detalhes na transportadora;\n* Agora ao cancelar uma nota com número na nfc-e que retorne a rejeição de numeração já inutilizada o sistema continuará o cancelamento.",
+        "version": "6.1.2",
+        "launch": "2018-02-02"
+    },
+    {
+        "id": "105",
+        "title": "#105- Fusion v6.1.1",
+        "change_log": "* Correção na impressão do CT-E OS;\n* Correção e melhoria na inutilização de números para nf-e e nfc-e no Administrador;\n* Melhorias de layout",
+        "version": "6.1.1",
+        "launch": "2018-01-29"
+    },
+    {
+        "id": "104",
+        "title": "#104- Fusion v6.1.0",
+        "change_log": "* Correção ao enviar troco para SAT/MFE;\n* Melhoria no processo de emissão da NFC-E;\n* Adicionado inutilização automática de número ao cancelar uma venda no NFC-E que o número foi alocado;\n* Adicionado avisos no NFC-E ao existir vendas para serem recuperadas;\n* Melhoria em alguns nomes de botões;\n* Agora a grid de opções da NFC-E mostra as notas que foram canceladas;\n* Melhorias de layouts em algumas janelas.",
+        "version": "6.1.0",
+        "launch": "2018-01-22"
+    },
+    {
+        "id": "103",
+        "title": "#103- Fusion v6.0.42",
+        "change_log": "* Correção ao emitir nfc-e;\n* Melhoria no sincronizador da nfc-e.",
+        "version": "6.0.42",
+        "launch": "2018-01-11"
+    },
+    {
+        "id": "102",
+        "title": "#102- Fusion v41",
+        "change_log": "* Implementado CT-E-OS como novo recurso;\n* Implementado histórico de compras para os produtos;\n* Melhoria na grid de produtos;\n* Melhoria na grid de pessoas;\n* Melhoria na grid de notas (nfe);\n* Outras melhorias em diversos layouts.",
+        "version": "41",
+        "launch": "2018-01-09"
+    },
+    {
+        "id": "101",
+        "title": "#101- Fusion v6.0.40",
+        "change_log": "* Correção ao emitir CT-E com documentos anteriores\n* Adicionado mais colunas na grid de produtos",
+        "version": "6.0.40",
+        "launch": "2017-12-21"
+    },
+    {
+        "id": "100",
+        "title": "#100- Fusion v6.0.39",
+        "change_log": "* Adicionado novos NCM;\n* Melhoria ao atualizar banco de dados do ADM e NFC-e.",
+        "version": "6.0.39",
+        "launch": "2017-12-18"
+    },
+    {
+        "id": "99",
+        "title": "#99- Fusion v6.0.38",
+        "change_log": "* Colocado movimentação com tecla DOWN na busca de produtos da NFC-E;\n* Melhorado algoritmo que escolhe o GTIN ao adicionar item na NFC-E;\n* Melhorias na janela de configuração de conexão da NFC-E;\n* Colocado QRCode da NFC-E por padrão abaixo do CUPOM. Pode ser alterado no ACBr a qualquer momento pelo utilizador.",
+        "version": "6.0.38",
+        "launch": "2017-12-15"
+    },
+    {
+        "id": "98",
+        "title": "#98- Fusion v6.0.37",
+        "change_log": "* Adicionado partilha para CT-e Simples Nacional",
+        "version": "6.0.37",
+        "launch": "2017-12-13"
+    },
+    {
+        "id": "97",
+        "title": "#97- Fusion v6.0.36",
+        "change_log": "* Melhorias na emissão de NFC-e",
+        "version": "6.0.36",
+        "launch": "2017-12-13"
+    },
+    {
+        "id": "96",
+        "title": "#96- Fusion v6.0.35",
+        "change_log": "* Correção de memory leak",
+        "version": "6.0.35",
+        "launch": "2017-12-12"
+    },
+    {
+        "id": "95",
+        "title": "#95- Fusion v6.0.34",
+        "change_log": "* Corrigido problema ao importar XML de compra com telefone incorreto.\n* Validado retorno de mais de produto com mesmo aliás no nfce;\n* Permitido digitar porta da impressora ao configurar gaveta no nfce;",
+        "version": "6.0.34",
+        "launch": "2017-12-01"
+    },
+    {
+        "id": "94",
+        "title": "#94- Fusion v6.0.33",
+        "change_log": "* Melhorias na impressão de NFC-e/SAT/MF-e",
+        "version": "6.0.33",
+        "launch": "2017-11-28"
+    },
+    {
+        "id": "93",
+        "title": "#93- Fusion v6.0.32",
+        "change_log": "* Adicionado função para abrir gaveta no NFC-e",
+        "version": "6.0.32",
+        "launch": "2017-11-24"
+    },
+    {
+        "id": "92",
+        "title": "#92- Fusion v6.0.31",
+        "change_log": "* Correção em atualização para versões muito antiga",
+        "version": "6.0.31",
+        "launch": "2017-11-23"
+    },
+    {
+        "id": "91",
+        "title": "#91- Fusion v6.0.30",
+        "change_log": "* Correção MF-e (Módulo Fiscal Eletrônico) Inscrição Estadual",
+        "version": "6.0.30",
+        "launch": "2017-11-21"
+    },
+    {
+        "id": "90",
+        "title": "#90- Fusion v6.0.29",
+        "change_log": "* Correção Inscrição Estadual Emitente no MF-e\n* CT-e Emissão Regime Normal",
+        "version": "6.0.29",
+        "launch": "2017-11-21"
+    },
+    {
+        "id": "89",
+        "title": "#89- Fusion v6.0.28",
+        "change_log": "* Liberado utilização de letras ao passar um produto pelo código no NFC-E;\n* Correção da data ao enviar um evento para o CT-E;\n* Correção ao trocar a logo dos frente de caixa nas configurações;\n* Melhorias no design ao cadastrar Documentos a Receber;",
+        "version": "6.0.28",
+        "launch": "2017-11-13"
+    },
+    {
+        "id": "88",
+        "title": "#88- Fusion v6.0.27",
+        "change_log": "* Adicionado tratamento para NF-E autorizada com situação DENEGADA;\n* Correção na comparação de cidade na busca por CNPJ;\n* Validação de código de barras único ao importar xml de compra;\n* Melhorias na definição do preço do serviço para emissão de CT-E;\n* Adicionado Produto Predominante no perfil do CT-E;\n* Correção em importação de XML de compra que possui a tag transp porém sem dados;\n* Melhoria de DESIGN em algumas janelas do sistema.",
+        "version": "6.0.27",
+        "launch": "2017-11-03"
+    },
+    {
+        "id": "87",
+        "title": "#87- Fusion v6.0.26",
+        "change_log": "* Adicionado opção para escolher se quer usar uma numeração diferente para NFC-E emitida offline por terminal;\n* Adicionado código ANP no produto para ser utilizado na NFC-E ou NF-E;\n* Corrigido problema ao iniciar novos terminais na NFC-E.",
+        "version": "6.0.26",
+        "launch": "2017-10-30"
+    },
+    {
+        "id": "86",
+        "title": "#86- Fusion v6.0.25",
+        "change_log": "* Desabilitado abas da NF-E que estavam habilitadas indevidamente;\n* Atualizado layout do CT-E para 3.0;\n* Adicionado observação padrão para NFC-E;\n",
+        "version": "6.0.25",
+        "launch": "2017-10-25"
+    },
+    {
+        "id": "85",
+        "title": "#85- Fusion v6.0.24",
+        "change_log": "* Correção de problema ao utilizar a edição do produto\n* Correção ao voltar para o passo anterior na emissão de NF-E nova com volumes adicionado",
+        "version": "6.0.24",
+        "launch": "2017-10-18"
+    },
+    {
+        "id": "84",
+        "title": "#84- Fusion v6.0.23",
+        "change_log": "* Corrigido compatibilidade do licenciamento com Windows Server 2012\n* Corrigido problemas ao incluir produto pela picker",
+        "version": "6.0.23",
+        "launch": "2017-10-17"
+    },
+    {
+        "id": "83",
+        "title": "#83- Fusion v6.0.22",
+        "change_log": "* Correção ao adicionar 3 ou mais documentos no MDF-E para mesmo município de descarrego.\n* Correção ao utilizar RNTRC que inicia com zero no MDF-E",
+        "version": "6.0.22",
+        "launch": "2017-10-13"
+    },
+    {
+        "id": "82",
+        "title": "#82- Fusion v6.0.21",
+        "change_log": "* Melhorias significativas no processo de utilização de veículos no sistema.",
+        "version": "6.0.21",
+        "launch": "2017-10-11"
+    },
+    {
+        "id": "81",
+        "title": "#81- Fusion v6.0.20",
+        "change_log": "* Agora é possível excluir notas de compras\n* Itens importados de XML não são calculados automaticamente e é possível ativar o auto-calculo a qualquer momento",
+        "version": "6.0.20",
+        "launch": "2017-10-07"
+    },
+    {
+        "id": "80",
+        "title": "#80- Fusion v6.0.19",
+        "change_log": "* Ajustado Layout XML MDF-e para mandar RNTRC da empresa",
+        "version": "6.0.19",
+        "launch": "2017-10-04"
+    },
+    {
+        "id": "79",
+        "title": "#79- Fusion v6.0.18",
+        "change_log": "* Correção do bug ao vender itens em instalações novas para o PDV ou NFC-E",
+        "version": "6.0.18",
+        "launch": "2017-10-03"
+    },
+    {
+        "id": "78",
+        "title": "#78- Fusion v6.0.17",
+        "change_log": "* Correção no cancelamento e carta correção com contingência ativa para SVC-RS ou SVC-AN\n* Correção na edição de CT-e pendentes\n* Correção na sincronização de configurações de bloqueio de estoque para NFC-E.",
+        "version": "6.0.17",
+        "launch": "2017-09-27"
+    },
+    {
+        "id": "77",
+        "title": "#77- Fusion v6.0.16",
+        "change_log": "* Correção na validação de CFOP para NF-E\n* Adicionado validação de estoque negativo para NFC-E (faltava esse após a versão 6.0.15)",
+        "version": "6.0.16",
+        "launch": "2017-09-26"
+    },
+    {
+        "id": "76",
+        "title": "#76- Fusion v6.0.15",
+        "change_log": "* Adicionado restrição de CFOP de acordo com Operação da NFE\n* Mesclado todas as janelas de sincronização em apenas uma\n* Adicionado bloqueio ao adicionar item na NF-E e PDV que deixe o estoque negativo.\n* Importante: NFC-E ainda não contém o bloqueio de estoque.",
+        "version": "6.0.15",
+        "launch": "2017-09-25"
+    },
+    {
+        "id": "75",
+        "title": "#75- Fusion v6.0.14",
+        "change_log": "* Adicionado configuração para calculo automático ou manual de imposto na NF-E\n* Correção no sync da NFC-E para bases muito antigas.",
+        "version": "6.0.14",
+        "launch": "2017-09-23"
+    },
+    {
+        "id": "74",
+        "title": "#74- Fusion v6.0.13",
+        "change_log": "* Agora é possível importar XML com serie 0.\n* Não importação de telefones do XML acima de 11 dígitos.",
+        "version": "6.0.13",
+        "launch": "2017-09-21"
+    },
+    {
+        "id": "73",
+        "title": "#73- Fusion v6.0.12",
+        "change_log": "* Adicionado validação de código de barras no padrão UPC-12 e SCC-14\n* Melhoria ao vincular produto na importação de XML (agora a busca já abre filtrando o nome do produto)",
+        "version": "6.0.12",
+        "launch": "2017-09-12"
+    },
+    {
+        "id": "72",
+        "title": "#72- Fusion v6.0.11",
+        "change_log": "* Correção na busca de cfop do perfil da nfe\n* Utilizado mesma data de emissão para xml baixados do fsist",
+        "version": "6.0.11",
+        "launch": "2017-09-11"
+    },
+    {
+        "id": "71",
+        "title": "#71- Fusion v6.0.10",
+        "change_log": "Correção na ordem da sincronização de tabelas do NFC-e",
+        "version": "6.0.10",
+        "launch": "2017-09-09"
+    },
+    {
+        "id": "70",
+        "title": "#70- Fusion v6.0.9",
+        "change_log": "* Melhorias na importação de XML por compras\n* Correção ao importar XML sem IPI",
+        "version": "6.0.9",
+        "launch": "2017-09-08"
+    },
+    {
+        "id": "69",
+        "title": "#69- Fusion v6.0.8",
+        "change_log": "* Adicionado restrições na escolha do CFOP para importação de XML, agora o Fusion identifica se o CFOP é Intermunicipal ou Interestadual.",
+        "version": "6.0.8",
+        "launch": "2017-09-07"
+    },
+    {
+        "id": "68",
+        "title": "#68- Fusion v6.0.7",
+        "change_log": "* Adicionado suporte para importação de XML para notas de compras\n* Melhorado recurso de adição de Cliente no Cupom Fiscal\n* Adicionado protocolo de conexão ao configurar servidor de e-mail",
+        "version": "6.0.7",
+        "launch": "2017-09-06"
+    },
+    {
+        "id": "67",
+        "title": "#67- Fusion v6.0.6",
+        "change_log": "- Correção CT-e\n- Melhoria Sincronizador NFC-e",
+        "version": "6.0.6",
+        "launch": "2017-08-28"
+    },
+    {
+        "id": "66",
+        "title": "#66- Fusion v6.0.5",
+        "change_log": "* Adicionado suporte para emissão de CT-E do tipo Subcontratação",
+        "version": "6.0.5",
+        "launch": "2017-08-23"
+    },
+    {
+        "id": "65",
+        "title": "#65- Fusion v6.0.4",
+        "change_log": "* Adicionado possibilidade de configurar o calculo da base para notas de compra\n* Adicionado possibilidade de clonar o produto",
+        "version": "6.0.4",
+        "launch": "2017-08-23"
+    },
+    {
+        "id": "64",
+        "title": "#64- Fusion v6.0.3",
+        "change_log": "* Corrigido validação na IE da pessoa\n* Melhorado sincronizador da NFC-E",
+        "version": "6.0.3",
+        "launch": "2017-08-16"
+    },
+    {
+        "id": "63",
+        "title": "#63- Fusion v6.0.2",
+        "change_log": "* Alterado protocolo de segurança para comunicação com SEFAZ para TLS 1.2",
+        "version": "6.0.2",
+        "launch": "2017-08-14"
+    },
+    {
+        "id": "62",
+        "title": "#62- Fusion v6.0.1",
+        "change_log": "* Correção no estilo dos textbox, combobox e todos os controles\n* Melhorias no processo de NF-E com crediário/cobrança\n* Correção ao finalizar pagamento do PDV-ECF",
+        "version": "6.0.1",
+        "launch": "2017-08-12"
+    },
+    {
+        "id": "61",
+        "title": "#61- Fusion v6.0.0",
+        "change_log": "* Adicionado Lançamento de Compras (Entradas)\n* Adicionado Financeiro (Receber e Apagar)\n* Melhorias no layout dos itens da NF-E\n* Melhorias na Grid CT-E\n* Melhorias na Grid MDF-E\n* Melhorias no sistema de emissão da NFC-E",
+        "version": "6.0.0",
+        "launch": "2017-08-02"
+    },
+    {
+        "id": "60",
+        "title": "#60- Fusion v5.0.41",
+        "change_log": "* Correção PickerProduto",
+        "version": "5.0.41",
+        "launch": "2017-07-27"
+    },
+    {
+        "id": "59",
+        "title": "#59- Fusion v5.0.40",
+        "change_log": "* Correção no sincronizador da NFC-e\n* Melhoria no instalador",
+        "version": "5.0.40",
+        "launch": "2017-07-25"
+    },
+    {
+        "id": "58",
+        "title": "#58- Fusion v5.0.39",
+        "change_log": "* Melhorias no carregamento de produtos",
+        "version": "5.0.39",
+        "launch": "2017-07-24"
+    },
+    {
+        "id": "57",
+        "title": "#57- Fusion v5.0.38",
+        "change_log": "* Aplicado correção na NFC-e",
+        "version": "5.0.38",
+        "launch": "2017-07-21"
+    },
+    {
+        "id": "56",
+        "title": "#56- Fusion v5.0.37",
+        "change_log": "*Correção na busca de grupo",
+        "version": "5.0.37",
+        "launch": "2017-07-18"
+    },
+    {
+        "id": "55",
+        "title": "#55- Fusion v5.0.36",
+        "change_log": "* Adicionado regras de tributação por ICMS CST para CSOSN e CFOP (essa alteração possibilita o usuário escolher qual CSOSN ou CFOP quer que o Fusion utilize ao emitir documentos ficais de acordo com a CST de ICMS do Produto)",
+        "version": "5.0.36",
+        "launch": "2017-07-12"
+    },
+    {
+        "id": "54",
+        "title": "#54- Fusion v5.0.35",
+        "change_log": "",
+        "version": "5.0.35",
+        "launch": "2017-07-08"
+    },
+    {
+        "id": "53",
+        "title": "#53- Fusion v5.0.34",
+        "change_log": "",
+        "version": "5.0.34",
+        "launch": "2017-07-07"
+    },
+    {
+        "id": "52",
+        "title": "#52- Fusion v5.0.33",
+        "change_log": "",
+        "version": "5.0.33",
+        "launch": "2017-06-29"
+    },
+    {
+        "id": "51",
+        "title": "#51- Fusion v5.0.32",
+        "change_log": "",
+        "version": "5.0.32",
+        "launch": "2017-06-27"
+    },
+    {
+        "id": "50",
+        "title": "#50- Fusion v5.0.31",
+        "change_log": "*Melhorias no MDF-e",
+        "version": "5.0.31",
+        "launch": "2017-06-22"
+    },
+    {
+        "id": "49",
+        "title": "#49- Fusion v5.0.30",
+        "change_log": "",
+        "version": "5.0.30",
+        "launch": "2017-06-21"
+    },
+    {
+        "id": "48",
+        "title": "#48- Fusion v5.0.29",
+        "change_log": "",
+        "version": "5.0.29",
+        "launch": "2017-06-12"
+    },
+    {
+        "id": "47",
+        "title": "#47- Fusion v5.0.28",
+        "change_log": "* Alterado .Net Framework para o 4.5.2",
+        "version": "5.0.28",
+        "launch": "2017-06-09"
+    },
+    {
+        "id": "45",
+        "title": "#45- Fusion v5.0.26",
+        "change_log": "* Feito melhorias na geração de numeração para NFC-e",
+        "version": "5.0.26",
+        "launch": "2017-06-07"
+    },
+    {
+        "id": "46",
+        "title": "#46- Fusion v5.0.27",
+        "change_log": "* Correção Inutilização de numeração NFC-e",
+        "version": "5.0.27",
+        "launch": "2017-06-06"
+    },
+    {
+        "id": "44",
+        "title": "#44- Fusion v5.0.25",
+        "change_log": "* Implementação de suporte para SAT\n* Correção no XML de autorização do CT-E\n* IMPORTANTE: Necessário .Net 4.6.2 na máquina",
+        "version": "5.0.25",
+        "launch": "2017-06-02"
+    },
+    {
+        "id": "43",
+        "title": "#43- Fusion v5.0.24",
+        "change_log": "* Novo recurso para envio de documentos eletrônicos para vários e-mails\n* Novo recurso para possibilitar vários e-mails por Pessoa\n* Adicionado sigla da unidade do produto ao lançar item na NF-e\n* Melhoria na grid de opções da nfe",
+        "version": "5.0.24",
+        "launch": "2017-05-22"
+    },
+    {
+        "id": "42",
+        "title": "#42- Fusion v5.0.23",
+        "change_log": "- Retirado obrigatoriedade dos tributos federais/estaduais do CT-e\n- Correção de erro ao utilizar tomador automático",
+        "version": "5.0.23",
+        "launch": "2017-04-26"
+    },
+    {
+        "id": "41",
+        "title": "#41- Fusion v5.0.22",
+        "change_log": "Correção no sincronizador de NFC-e",
+        "version": "5.0.22",
+        "launch": "2017-04-12"
+    },
+    {
+        "id": "40",
+        "title": "#40- Fusion v5.0.21",
+        "change_log": "* Melhorias no CT-e",
+        "version": "5.0.21",
+        "launch": "2017-04-11"
+    },
+    {
+        "id": "39",
+        "title": "#39- Fusion v5.0.20",
+        "change_log": "",
+        "version": "5.0.20",
+        "launch": "2017-04-04"
+    },
+    {
+        "id": "38",
+        "title": "#38- Fusion v5.0.19",
+        "change_log": "* Melhorado processo de envio de NFC-e pelo e-mail\n* Corrigido problema do sincronizador NFC-e; que parava a sincronização em alguns casos raros",
+        "version": "5.0.19",
+        "launch": "2017-03-30"
+    },
+    {
+        "id": "37",
+        "title": "#37- Fusion v5.0.18",
+        "change_log": "* Melhoria na performance do Sincronizador da NFC-e com servido\n* Melhoria no processo de restauração do banco de dados após a instalação",
+        "version": "5.0.18",
+        "launch": "2017-03-15"
+    },
+    {
+        "id": "36",
+        "title": "#36- Fusion v5.0.17",
+        "change_log": "* Adicionado Log em alguns lugares para melhorar possíveis correções futuras.",
+        "version": "5.0.17",
+        "launch": "2017-03-14"
+    },
+    {
+        "id": "35",
+        "title": "#35- Fusion v5.0.16",
+        "change_log": "* Melhoria na impressao da nfc-e",
+        "version": "5.0.16",
+        "launch": "2017-03-13"
+    },
+    {
+        "id": "34",
+        "title": "#34- Fusion v5.0.15",
+        "change_log": "* Disponibilizado MDF-e sem necessidade do CT-e; podendo ser liberado no portal da revenda.\n* Melhoria da janela de busca dos dados pelo CNPJ",
+        "version": "5.0.15",
+        "launch": "2017-03-13"
+    },
+    {
+        "id": "33",
+        "title": "#33- Fusion v5.0.14",
+        "change_log": "* Melhorias na emissão de NFC-e para garantir que todas as notas sejam emitidas e protocoladas\n* Implementado recurso de Auto Restore para arquivos de .bak que estejam na pasta .restore\n* Melhorado instalador do Fusion\n* Implementado Flag para definição de CFOPs para NFC-E\n* Corrigido alteração de item na NFC-E para movimentar estoque adequadamente",
+        "version": "5.0.14",
+        "launch": "2017-03-11"
+    },
+    {
+        "id": "32",
+        "title": "#32- Fusion v5.0.13",
+        "change_log": "- Melhorias\n- Correção no atualizador",
+        "version": "5.0.13",
+        "launch": "2017-02-20"
+    },
+    {
+        "id": "31",
+        "title": "#31- Fusion v5.0.12",
+        "change_log": "* Melhoria na estética das mensagens\n* Adicionado IE para Pessoa Física na picker de seleção",
+        "version": "5.0.12",
+        "launch": "2017-02-17"
+    },
+    {
+        "id": "30",
+        "title": "#30- Fusion v5.0.11",
+        "change_log": "Melhorias na impressão da nfc-e",
+        "version": "5.0.11",
+        "launch": "2017-02-13"
+    },
+    {
+        "id": "29",
+        "title": "#29- Fusion v5.0.10",
+        "change_log": "* Adicionado atalho rápido em Pickers mais utilizadas;\n* Adicionado atalho rápido para edição do Produto (propriamente dito) na lista de itens da NF-e;\n* Corrigido alteração do CSOSN para o Perfil;\n* Recurso para remoção de Expedidor e Recebedor no CT-e.",
+        "version": "5.0.10",
+        "launch": "2017-02-09"
+    },
+    {
+        "id": "28",
+        "title": "#28- Fusion v5.0.9",
+        "change_log": "* Melhorias na emissão da NF-e\n* Novos recursos para a emissão de CT-e\n* Melhorias no checkout da NFC-e\n",
+        "version": "5.0.9",
+        "launch": "2017-01-31"
+    },
+    {
+        "id": "27",
+        "title": "#27- Fusion v5.0.8",
+        "change_log": "* Correções e melhorias",
+        "version": "5.0.8",
+        "launch": "2017-01-12"
+    },
+    {
+        "id": "26",
+        "title": "#26- Fusion v5.0.7",
+        "change_log": "* Adicionado multi-empresa para emissão de documentos eletrônicos (recurso terá custo adicional)\n* Melhorado emissão da NF-e para garantir que uma nota com emissão inicializada tenha finalizada.\n* Adicionado exportação de pacotes XML para CT-e / MDF-e",
+        "version": "5.0.7",
+        "launch": "2017-01-10"
+    },
+    {
+        "id": "25",
+        "title": "#25- Fusion v5.0.6",
+        "change_log": "+ Adicionado Inscrição Estadual para nota fiscal eletrônica",
+        "version": "5.0.6",
+        "launch": "2017-01-06"
+    },
+    {
+        "id": "24",
+        "title": "#24- Fusion v5.0.5",
+        "change_log": "Correção FusionSincronizadorPDV",
+        "version": "5.0.5",
+        "launch": "2016-12-22"
+    },
+    {
+        "id": "23",
+        "title": "#23- Fusion v5.0.4",
+        "change_log": "- Melhorias no FusionPDV\n- Correção no cadastro de produto",
+        "version": "5.0.4",
+        "launch": "2016-12-20"
+    },
+    {
+        "id": "22",
+        "title": "#22- Fusion v5.0.3",
+        "change_log": "Adicionado desconto na NF-e\nAdicionado complemento no endereço de pessoa\nFeito melhorias no PDV-ECF",
+        "version": "5.0.3",
+        "launch": "2016-12-17"
+    },
+    {
+        "id": "21",
+        "title": "#21- Fusion v5.0.2",
+        "change_log": "Melhorias no NFC-e\nMelhorias no sincronizador de NFC-e",
+        "version": "5.0.2",
+        "launch": "2016-12-14"
+    },
+    {
+        "id": "20",
+        "title": "#20- Fusion v5.0.1",
+        "change_log": "Adicionado opção para adicionar o número do pedido é o número do item na NF-e\nAumentado tamanho do campo CSC",
+        "version": "5.0.1",
+        "launch": "2016-12-12"
+    },
+    {
+        "id": "19",
+        "title": "#19- Fusion v5.0.0",
+        "change_log": "Adicionado CT-e\nAdicionado MDF-e\nFeito melhorias\nFeito correções\n",
+        "version": "5.0.0",
+        "launch": "2016-12-09"
+    },
+    {
+        "id": "18",
+        "title": "#18- Fusion v4.0.18 - Fix Path 3",
+        "change_log": "* Correção sincronização NFC-e\n* Correção preço de produto compra e venda salvando com 4 casas decimais",
+        "version": "3",
+        "launch": "2016-12-05"
+    },
+    {
+        "id": "17",
+        "title": "#17- Fusion v4.0.18 - Fix Path 2",
+        "change_log": "* Correção do botão visualizar DANFE",
+        "version": "2",
+        "launch": "2016-11-29"
+    },
+    {
+        "id": "16",
+        "title": "#16- Fusion v4.0.18 - Fix Patch 1",
+        "change_log": "- Corrige problema de emissão de NFE para Pessoa Júridica sem IE\n- Necessário que o sistema esteja na versão 4.0.18\n- Substituir os arquivos pelos contidos no ZIP",
+        "version": "1",
+        "launch": "2016-11-17"
+    },
+    {
+        "id": "15",
+        "title": "#15- Fusion v4.0.18",
+        "change_log": "Implementado Contingência para NF-e",
+        "version": "4.0.18",
+        "launch": "2016-11-12"
+    },
+    {
+        "id": "14",
+        "title": "#14- Fusion",
+        "change_log": "Funcionalidade #461: Possibilitar o bloqueio do sistema após ser feito o cancelamento ou bloqueio do mesmo no portal\nFuncionalidade #487: Inativacao Licenca - Cancelar licencas no fusion após serem canceladas no portal\nFuncionalidade #488: Licenciamento - Auto bloqueio do sistema após 30 dias sem internet\nCorreção #483: Emissão de nota fiscal eletrônica com volumes\nCorreção #489: Algoritimo Licenca - Implementar no algoritimo de geração de licencas a validacao/utilizacao do digito verificador da Chave Máquina",
+        "version": "Fusion",
+        "launch": "2016-11-03"
+    },
+    {
+        "id": "13",
+        "title": "#13- Fusion v4.0.16",
+        "change_log": "Bug - Correção Sincronizador PDV",
+        "version": "4.0.16",
+        "launch": "2016-10-25"
+    },
+    {
+        "id": "12",
+        "title": "#12- Fusion v4.0.15",
+        "change_log": "Funcionalidade #496: Utilização de enter na observação da NF-e e do Perfil NF-e\nFuncionalidade #497: De olho no imposto não aparecer quando for saída para não consumidor final",
+        "version": "4.0.15",
+        "launch": "2016-10-24"
+    },
+    {
+        "id": "11",
+        "title": "#11- Fusion v4.0.14",
+        "change_log": "Nfe - pode emitir com transportadora mas sem veículo",
+        "version": "4.0.14",
+        "launch": "2016-10-21"
+    },
+    {
+        "id": "10",
+        "title": "#10- Fusion v4.0.13",
+        "change_log": "Nfc-e Exportação",
+        "version": "4.0.13",
+        "launch": "2016-10-17"
+    },
+    {
+        "id": "9",
+        "title": "#9- Fusion v4.0.12",
+        "change_log": "NF-e melhorias",
+        "version": "4.0.12",
+        "launch": "2016-10-07"
+    },
+    {
+        "id": "8",
+        "title": "#8- Fusion v4.0.11",
+        "change_log": "Adicionado campo observação na nfc-e\nAdicionado configuração padrão de tributação para nfc-e\nAdicionado opção para alteração de cfop ou csosn dos item para nfc-e",
+        "version": "4.0.11",
+        "launch": "2016-10-06"
+    },
+    {
+        "id": "7",
+        "title": "#7- Fusion v4.0.10",
+        "change_log": "NFC-e melhoria na pesquisa de produto\nLicenciamento melhorias aplicadas para facilitar o suporte",
+        "version": "4.0.10",
+        "launch": "2016-10-03"
+    },
+    {
+        "id": "6",
+        "title": "#6- Fusion v4.0.9",
+        "change_log": "FusionNFC-e ajustado pesquisa de cliente\nFusionAdm feito validação para não salvar emissor de nfc-e com série e série contingência iguais",
+        "version": "4.0.9",
+        "launch": "2016-09-30"
+    },
+    {
+        "id": "5",
+        "title": "#5- Fusion v4.0.8",
+        "change_log": "Adicionado parâmetro Porta USB para impressoras fiscais",
+        "version": "4.0.8",
+        "launch": "2016-09-28"
+    },
+    {
+        "id": "4",
+        "title": "#4- Fusion v4.0.7",
+        "change_log": "- Feito partilha para NF-e",
+        "version": "4.0.7",
+        "launch": "2016-09-26"
+    },
+    {
+        "id": "3",
+        "title": "#3- Fusion v4.0.6",
+        "change_log": "Alterado UrlConsulta de Goiás para NFc-e",
+        "version": "4.0.6",
+        "launch": "2016-09-21"
+    },
+    {
+        "id": "2",
+        "title": "#2- Fusion v4.0.5",
+        "change_log": "Melhorias de UX - Fusion",
+        "version": "4.0.5",
+        "launch": "2016-09-09"
+    },
+    {
+        "id": "1",
+        "title": "#1- Sistema Fusion v4.0.4",
+        "change_log": "Melhorias de UX - NFce",
+        "version": "4.0.4",
+        "launch": "2016-09-08"
+    }
+]
